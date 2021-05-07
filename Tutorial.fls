@@ -1,0 +1,14 @@
+PWD b:\_GITHUB\Beginners-Cplusplus-tutorial
+INPUT C:\Users\arman\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT b:\_GITHUB\Beginners-Cplusplus-tutorial\Tutorial.tex
+OUTPUT Tutorial.log
+INPUT C:\Users\arman\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\arman\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\arman\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\arman\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\arman\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT C:\Users\arman\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT Tutorial.aux
+INPUT Tutorial.aux
+OUTPUT Tutorial.aux
+INPUT Tutorial.aux
