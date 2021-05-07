@@ -1,6 +1,7 @@
 # __C++ - tutorial__
 ---
 _This tutorial is designed for and individuals who are interested in learning C++_
+_The code used in this tutorial are provided
 ---
 
 ### Table of content
