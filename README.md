@@ -10,7 +10,7 @@ _This tutorial is designed for and individuals who are interested in learning C+
 - Set up end and Installation
 - Hello World C++
 
-2- Basic syntax 
+2- Basic syntax
 - Variables
 - Strings
 - User input
@@ -19,7 +19,7 @@ _This tutorial is designed for and individuals who are interested in learning C+
 - Floating point type
 - Other Types: Char and Bool
 
-3 - Condition 
+3 - Condition
 - If
 - If-Else
 - For loop
