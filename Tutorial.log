@@ -1,28 +1,28 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.10)  7 MAY 2021 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  8 MAY 2021 22:18
 entering extended mode
 **b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
 (b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-06-18> (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
-) (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count175
-\l__pdf_internal_box=\box45
+\bibindent=\dimen138
+) (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count187
+\l__pdf_internal_box=\box47
 ) (Tutorial.aux)
 \openout1 = `Tutorial.aux'.
 
@@ -40,19 +40,21 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
- (Tutorial.aux) ) 
-Here is how much of TeX's memory you used:
- 363 strings out of 480790
- 6515 string characters out of 2897301
- 238890 words of memory out of 3000000
- 16457 multiletter control sequences out of 15000+200000
- 532338 words of font info for 24 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 25i,1n,19p,170b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+ [1
 
-No pages of output.
+{C:/Users/arman/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Tutorial.aux) ) 
+Here is how much of TeX's memory you used:
+ 382 strings out of 479321
+ 7095 string characters out of 2856584
+ 289394 words of memory out of 3000000
+ 17926 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,4n,50p,177b,100s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on Tutorial.pdf (1 page, 13861 bytes).
 PDF statistics:
- 0 PDF objects out of 1000 (max. 8388607)
+ 10 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
