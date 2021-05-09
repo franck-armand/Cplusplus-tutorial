@@ -7,9 +7,10 @@ _The code used in this tutorial are provided
 ### Table of content
 
 1- Getting started
-- Introduction to C++
-- Set up end and Installation
-- Hello World C++
+- Understand the Computer Language
+- C++ against other programming Languages
+- Summary of C++
+- Summary
 
 2- Basic syntax
 - Variables
