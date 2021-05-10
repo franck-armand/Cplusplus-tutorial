@@ -1,9 +1,29 @@
 \documentclass[11pt, a4paper]{article}
-\DeclareUnicodeCharacter{200A}{!!!FIX ME!!!}
+%\DeclareUnicodeCharacter{200A}{!!!FIX ME!!!}
 \usepackage{blindtext}
 \usepackage{listings}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{xcolor}
+%\renewcommand{\lstlisting}{code}
+\renewcommand{\lstlistlistingname}{List of codes}
+\lstdefinestyle{chstyle}{%
+backgroundcolor=\color{gray!12},
+basicstyle=\ttfamily\small,
+commentstyle=\color{green!60!black},
+keywordstyle=\color{magenta},
+stringstyle=\color{blue!50!red},
+showstringspaces=false,
+captionpos = b,
+numbers = left,
+numberstyle=\footnotesize\color{gray},
+numbersep=10pt,
+stepnumber=2,
+tabsize = 3,
+frame=L,
+framerule=1pt,
+rulecolor=\color{red},}
+
 
 \title{C++ Tutorials for Beginners}
 \author{Kouassi Franck Armand Prince
@@ -21,6 +41,7 @@
 
 \tableofcontents
 \listoffigures
+\lstlistoflistings
 \pagebreak
 
 \section{Getting Started}
@@ -109,8 +130,22 @@ To give you an idea of how the code looks, let's look at a simple C++ program di
 on the screen. Do not try to understand the code just appreciate the beauty and structure. We will
 go into details in the following sections
 
+\begin{lstlisting}[caption=Sample example of C++ programming language, style=chstyle, language=C++]
+//=================================================
+// Sample example of C++ programming language
+//=================================================
 
+#include <iostream>
 
+using namespace std;
+
+int main()
+{
+    cout << "Hello world!" << endl;
+    return 0;
+}
+//=================================================
+\end{lstlisting}
 \textit{ If you are interested in knowing the story of C++ starting from its creation,
 \href{https://en.wikipedia.org/wiki/Bjarne_Stroustrup}{you can learn all about C++ from wikipedia}}
 
@@ -125,6 +160,47 @@ go into details in the following sections
     \item  C++ is a widely used programming language, it is an evolution of C programming due to the fact that 
     it allows Object Oriented Programming (OOP), a very powerful programming feature.
 \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
