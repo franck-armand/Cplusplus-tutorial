@@ -1,5 +1,8 @@
 \documentclass[11pt, a4paper]{article}
 %\DeclareUnicodeCharacter{200A}{!!!FIX ME!!!}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{txfonts}
 \usepackage{blindtext}
 \usepackage{listings}
 \usepackage{hyperref}
@@ -63,15 +66,15 @@ to learn this language (Binary language). Programmers created languages which ar
 than binary language. Here you could check \href{https://en.wikipedia.org/wiki/List_of_programming_languages}
 {\emph{\textit{the number of programming languages.}}} \newline
 All programming languages have the same goal, that is being able to easily and efficently
-communicate with the computer compare to binary language. Here, is how it works :
+communicate with the computer compare to binary language.\newline Here, is how it works :
 
 1. You write the instructions to be executed by the computer in a programming language (e.g C++)
 
-2. The instructions are translated in binary, the language understood by the computer.
+2. The instructions are translated in binary (0 and 1), the language understood by the computer.
 
 3. The computer can now decode the message and executes your request.
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \includegraphics[width = \linewidth]{diagrams/compling.png}
 \caption{Compliling Process.}
 \label{fig:Compliling Process}
@@ -101,18 +104,21 @@ to humans languge,it allows to easily understand and translate instructions cont
 which a language closed to machine language and generally requires much more effort but gives you more 
 control over what you can do, it is a trade-off.
 
+\begin{figure}[h!]
+    \includegraphics[width = \linewidth]{diagrams/low vs high.png}
+    \caption{Programming Language by level.}
+    \label{fig:Programming Language by level}
+\end{figure}
 C++ is a low level language. Do not panic, although coding in C++ might be a little complex, you will 
 have in your possession a very \textbf{\textit{{powerful}}} and particulary \textbf{\textit{{fast}}} language.
 Infact, if most games are developed in C++, it is because it is the language capable of coupling
 speed and power, that makes it an essential language.
 
-\begin{figure}[h!]
-    \includegraphics[width = \linewidth]{diagrams/low vs high.JPG}
-    \caption{Programming Language by level.}
-    \label{fig:Programming Language by level}
-    \end{figure}
+
 
 \subsection{Summary of C++}
+Here we are going to showcase some aspects of C++ that make it an important language regardless of
+how long it has been since it creation.
 \begin{itemize}
     \item \textbf{Popularity} : C++ is one of the most popular
     languages in the world. It is used by some 4.4 million developers worldwide
@@ -160,15 +166,37 @@ int main()
     \item  C++ is a widely used programming language, it is an evolution of C programming due to the fact that 
     it allows Object Oriented Programming (OOP), a very powerful programming feature.
 \end{itemize}
+\newpage
 
+\section{Environment setup}
+In this section, we are going to introduce the tools needed to follow
+this tutorial.From our previous discuss, you already know by now an important
+tool needed, Yes you are right, you need a Compiler, the program that
+converts your C++ code into the computer readable format.
 
+Aside these, there are additional tools needed for you to code with ease
+\begin{itemize}
+    \item \textbf{A text editor}: It will allow you to write your source
+    code. On windows we have Notepad or Vi on linux. But of course, it is
+    less recommed because as your code gets bigger and bigger, you might not 
+    not be  able to fully control it.
+    \item \textbf{A compiler}: as mentioned above, it converts your source code into
+    binary format for the computer
+    \item \textbf{A debugger}: it helps you find bugs in your programs.
+\end{itemize}
+From now on we have two options (02) either we get the programs seperatly
+which is of course much complicated, but on Linux most programmers prefer 
+to use them in that way, I will not go into much details here, instead we 
+are going to explore the simple way. We can get a program "3 in 1",
+Yes you heard me correctly, a tool capable of handling the 3 listed tools 
+It is commonly refered to as an \textbf{IDE} (Integrated Developement Environment).
+There are of numerous types. In this tutorial we are not going to discuss 
+their similarities. I personnaly recommed Visual Studio Code and here is
+how you can \href{https://code.visualstudio.com/docs/languages/cpp}
+{get started with C++ for Visual Studio Code}. So go ahead and install the
+necessary packages.
 
-
-
-
-
-
-
+\section{Your first C++ code}
 
 
 
