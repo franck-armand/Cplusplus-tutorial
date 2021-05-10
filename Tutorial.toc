@@ -1,6 +1,8 @@
 \contentsline {section}{\numberline {1}Getting Started}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Understand the Computer Language}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}C++ against other programming languages}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Summary of C++}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.3}Summary of C++}{4}{subsection.1.3}%
 \contentsline {paragraph}{Snippet of C++}{5}{section*.4}%
 \contentsline {subsection}{\numberline {1.4}Summary}{5}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Environment setup}{6}{section.2}%
+\contentsline {section}{\numberline {3}Your first C++ code}{6}{section.3}%
