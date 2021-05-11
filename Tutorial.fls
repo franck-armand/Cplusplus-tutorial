@@ -688,6 +688,12 @@ INPUT C:\Users\arman\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\txr.
 INPUT C:\Users\arman\AppData\Local\Programs\MiKTeX\fonts\vf\public\txfonts\txr.vf
 INPUT C:\Users\arman\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxptmr.tfm
 INPUT C:\Users\arman\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxr.tfm
+INPUT .\codes\first.c++
+INPUT codes\first.c++
+INPUT .\codes\first.c++
+INPUT codes\first.c++
+INPUT .\codes\first.c++
+INPUT codes\first.c++
 INPUT Tutorial.aux
 INPUT .\Tutorial.out
 INPUT .\Tutorial.out

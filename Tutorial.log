@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  10 MAY 2021 23:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  11 MAY 2021 23:41
 entering extended mode
 **b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
 (b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
@@ -297,50 +297,51 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 37.
+\mybox=\box49
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 39.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count292
-\l__pdf_internal_box=\box49
+\l__pdf_internal_box=\box50
 ) (Tutorial.aux)
 \openout1 = `Tutorial.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 37.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 37.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 39.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 39.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 37.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 37.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 39.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 37.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 37.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 39.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 37.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 37.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 39.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -377,7 +378,7 @@ LaTeX Font Info:    ... okay on input line 37.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count293
-Package hyperref Info: Link coloring OFF on input line 37.
+Package hyperref Info: Link coloring OFF on input line 39.
 (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -387,9 +388,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count294
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
  (Tutorial.out) (Tutorial.out)
 \@outlinefile=\write3
 \openout3 = `Tutorial.out'.
@@ -398,7 +399,7 @@ LaTeX Info: Redefining \nameref on input line 37.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count295
 \scratchdimen=\dimen157
-\scratchbox=\box50
+\scratchbox=\box51
 \nofMPsegments=\count296
 \nofMParguments=\count297
 \everyMPshowfont=\toks18
@@ -413,26 +414,26 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 39.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 41.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 39.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 41.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 39.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 41.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 39.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 41.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ) [1
 
 {C:/Users/arman/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 45.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 47.
  (Tutorial.toc
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1.
@@ -450,25 +451,25 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
 
  [2]
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10.95> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 56.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 60.
-<diagrams/compling.png, id=61, 543.02875pt x 111.41624pt>
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 62.
+<diagrams/compling.png, id=63, 543.02875pt x 111.41624pt>
 File: diagrams/compling.png Graphic file (type png)
 <use diagrams/compling.png>
-Package pdftex.def Info: diagrams/compling.png  used on input line 78.
+Package pdftex.def Info: diagrams/compling.png  used on input line 80.
 (pdftex.def)             Requested size: 452.9679pt x 92.94127pt.
-<diagrams/low vs high.png, id=63, 348.30125pt x 318.18875pt>
+<diagrams/low vs high.png, id=65, 348.30125pt x 318.18875pt>
 File: diagrams/low vs high.png Graphic file (type png)
 <use diagrams/low vs high.png>
-Package pdftex.def Info: diagrams/low vs high.png  used on input line 108.
+Package pdftex.def Info: diagrams/low vs high.png  used on input line 110.
 (pdftex.def)             Requested size: 452.9679pt x 413.82495pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./diagrams/compling.png>]
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 123.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 125.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [4 <./diagrams/low vs high.png>] (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
@@ -478,25 +479,30 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 139.
+LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 141.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
-) [5] [6] (Tutorial.aux)
+) [5] (codes/first.c++)
+Underfull \hbox (badness 10000) in paragraph at lines 208--211
+
+ []
+
+[6] [7] (Tutorial.aux)
 Package rerunfilecheck Info: File `Tutorial.out' has not changed.
 (rerunfilecheck)             Checksum: 4C56BE20FC8146B4B20EC8D150ED4AD5;1114.
  ) 
 Here is how much of TeX's memory you used:
- 11927 strings out of 479321
- 171160 string characters out of 2856584
- 664137 words of memory out of 3000000
- 29166 multiletter control sequences out of 15000+600000
+ 11945 strings out of 479321
+ 171442 string characters out of 2856584
+ 664149 words of memory out of 3000000
+ 29168 multiletter control sequences out of 15000+600000
  434889 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,6n,74p,352b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Tutorial.pdf (6 pages, 105619 bytes).
+Output written on Tutorial.pdf (7 pages, 111648 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
  67 words of extra memory for PDF output out of 10000 (max. 10000000)
 
