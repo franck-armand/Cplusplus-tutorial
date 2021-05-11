@@ -8,6 +8,8 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{xcolor}
+\newsavebox{\mybox}
+\savebox{\mybox}[0.5\textwidth][c]{aaaa}
 %\renewcommand{\lstlisting}{code}
 \renewcommand{\lstlistlistingname}{List of codes}
 \lstdefinestyle{chstyle}{%
@@ -197,19 +199,45 @@ how you can \href{https://code.visualstudio.com/docs/languages/cpp}
 necessary packages.
 
 \section{Your first C++ code}
+The “Hello World” program is the first but most vital step towards
+learning any programming language and it is certainly the simplest
+program you will learn with each programming language. All you need
+to do is display the message "Hello World" on the output screen.
+\lstinputlisting[language=c++, style=chstyle]{codes/first.c++}
 
+\textbf{Output}\newline
+% \usebox{\mybox}
+% \doublebox{\mybox}
 
+\noindent
+1. \fbox{// Your first C++ program }\newline
+In C++, any line starting with \fbox{\color{green}//} is a comment. Comments are
+intended for the person reading the code to better understand the
+functionality of the program. It is completely ignored by the C++
+compiler.
 
+\noindent
+2. \fbox{ include }\newline
+The "include" is a preprocessor directive used to include files in our
+program. The above code is including the contents of the iostream file.
 
+\noindent
+3. \fbox{int main() {...}}\newline
+A valid C++ program must have the main() function. The curly braces
+indicate the start and the end of the function. \newline The execution of
+code beings from this function.
 
+\noindent
+4. \fbox{std::cout << "Hello World!";}\newline
+std::cout prints the content inside the quotation marks.
+It must be followed by << followed by the format string. In our
+example, "Hello World!" is the format string. \newline 
+\textbf{Note: } ; is used to indicate the end of a statement.
 
-
-
-
-
-
-
-
+\noindent
+5. \fbox{return 0;}\newline
+The return 0; statement is the "Exit status" of the program.
+In simple terms, the program ends with this statement.
 
 
 
