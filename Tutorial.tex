@@ -1,6 +1,7 @@
 \documentclass[11pt, a4paper]{article}
 %\DeclareUnicodeCharacter{200A}{!!!FIX ME!!!}
 
+\usepackage[utf8]{inputenc}
 \usepackage[margin=1in]{geometry}
 \usepackage{txfonts}
 \usepackage{blindtext}
@@ -205,7 +206,8 @@ program you will learn with each programming language. All you need
 to do is display the message "Hello World" on the output screen.
 \lstinputlisting[language=c++, style=chstyle]{codes/first.c++}
 
-\textbf{Output}\newline
+\noindent \textbf{Output}
+\lstinputlisting[style=chstyle]{codes/1.txt}
 % \usebox{\mybox}
 % \doublebox{\mybox}
 
@@ -217,7 +219,7 @@ functionality of the program. It is completely ignored by the C++
 compiler.
 
 \noindent
-2. \fbox{ include }\newline
+2. \fbox{ include}\newline
 The "include" is a preprocessor directive used to include files in our
 program. The above code is including the contents of the iostream file.
 
@@ -238,8 +240,6 @@ example, "Hello World!" is the format string. \newline
 5. \fbox{return 0;}\newline
 The return 0; statement is the "Exit status" of the program.
 In simple terms, the program ends with this statement.
-
-
 
 
 
