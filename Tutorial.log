@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  13 MAY 2021 23:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  14 MAY 2021 23:59
 entering extended mode
 **b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
 (b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
@@ -493,13 +493,13 @@ Package rerunfilecheck Info: File `Tutorial.out' has not changed.
 Here is how much of TeX's memory you used:
  11975 strings out of 479321
  172006 string characters out of 2856584
- 664626 words of memory out of 3000000
+ 665626 words of memory out of 3000000
  29190 multiletter control sequences out of 15000+600000
  434889 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,6n,74p,352b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Tutorial.pdf (7 pages, 112101 bytes).
+Output written on Tutorial.pdf (7 pages, 112162 bytes).
 PDF statistics:
  168 PDF objects out of 1000 (max. 8388607)
  47 named destinations out of 1000 (max. 500000)
