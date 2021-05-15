@@ -1,0 +1,4 @@
+/* The following code is a little more complexe thus I will take my time
+   and explain every single line of code, because a week from now I may
+   not have forgotten.
+*/
