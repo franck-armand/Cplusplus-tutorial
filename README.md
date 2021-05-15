@@ -12,7 +12,13 @@ _The code used in this tutorial are provided
 - Summary of C++
 - Summary
 
-2- Basic syntax
+2- Environment setup
+
+3- Your first c++ code
+- Make your code more readable
+- summary
+
+4- Basic syntax
 - Variables
 - Strings
 - User input
@@ -21,7 +27,7 @@ _The code used in this tutorial are provided
 - Floating point type
 - Other Types: Char and Bool
 
-3 - Condition
+5 - Condition
 - If
 - If-Else
 - For loop
@@ -34,17 +40,17 @@ _The code used in this tutorial are provided
 - Sizeof multidimensional Arrays
 - Switch
 
-4- Reusable Blocks of code
+6- Reusable Blocks of code
 - Functions
 - Return Values
 - Function Parameters
 - Headers and prototypes
 
-5- Object Oriented coding
+7- Object Oriented coding
 - Classes
 - Data members
 
-6- Pointers and Memory
+8- Pointers and Memory
 - Pointers
 - Arithmetic
 - Pointers and arrays
@@ -53,9 +59,9 @@ _The code used in this tutorial are provided
 - The “const” Keyword
 - Namespaces
 
-7- Inheritance
+9- Inheritance
 - Inheritance
 - Encapsulation
 - Constructor Inheritance
 
-8- Project
+10- Project
