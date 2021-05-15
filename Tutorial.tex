@@ -9,6 +9,8 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{xcolor}
+\usepackage{cleveref}
+
 \newsavebox{\mybox}
 \savebox{\mybox}[0.5\textwidth][c]{aaaa}
 %\renewcommand{\lstlisting}{code}
@@ -28,7 +30,8 @@ stepnumber=2,
 tabsize = 3,
 frame=L,
 framerule=1pt,
-rulecolor=\color{red},}
+rulecolor=\color{red},
+breaklines = true,}
 
 
 \title{C++ Tutorials for Beginners}
@@ -84,12 +87,6 @@ communicate with the computer compare to binary language.\newline Here, is how i
 \end{figure}
 
 \subsection{C++ against other programming languages}
-% \subsubsection{sub sub section}
-% {\blindtext}
-% You might think of C++ as an antique programming language, but C++ is still readily used in programming today.
-% Despite the advent of popular object-oriented programming languages like Python, C++ continues to have a dedicated
-% space in the tech world.C++ is still the go to language for solutions that need fast machine performance. AAA video games, IoT,
-% embedded systems, and resource-heavy VR and AI applications run on C or C++.
 Before we start talking about why C++ reprsents a powerful language despite its age. let's discuss the
 the key points to analyze before diving into a language.
 
@@ -139,7 +136,8 @@ To give you an idea of how the code looks, let's look at a simple C++ program di
 on the screen. Do not try to understand the code just appreciate the beauty and structure. We will
 go into details in the following sections
 
-\begin{lstlisting}[caption=Sample example of C++ programming language, style=chstyle, language=C++]
+\begin{lstlisting}[caption=Sample example of C++ programming language, style=chstyle,
+    language=C++, label = c-sample]
 //=================================================
 // Sample example of C++ programming language
 //=================================================
@@ -188,12 +186,12 @@ Aside these, there are additional tools needed for you to code with ease
     \item \textbf{A debugger}: it helps you find bugs in your programs.
 \end{itemize}
 From now on we have two options (02) either we get the programs seperatly
-which is of course much complicated, but on Linux most programmers prefer 
-to use them in that way, I will not go into much details here, instead we 
+which is of course much complicated, but on Linux most programmers prefer
+to use them in that way, I will not go into much details here, instead we
 are going to explore the simple way. We can get a program "3 in 1",
-Yes you heard me correctly, a tool capable of handling the 3 listed tools 
+Yes you heard me correctly, a tool capable of handling the 3 listed tools
 It is commonly refered to as an \textbf{IDE} (Integrated Developement Environment).
-There are of numerous types. In this tutorial we are not going to discuss 
+There are of numerous types. In this tutorial we are not going to discuss
 their similarities. I personnaly recommed Visual Studio Code and here is
 how you can \href{https://code.visualstudio.com/docs/languages/cpp}
 {get started with C++ for Visual Studio Code}. So go ahead and install the
@@ -204,60 +202,105 @@ The “Hello World” program is the first but most vital step towards
 learning any programming language and it is certainly the simplest
 program you will learn with each programming language. All you need
 to do is display the message "Hello World" on the output screen.
-\lstinputlisting[language=c++, style=chstyle]{codes/first.c++}
+\lstinputlisting[language=c++, style=chstyle, label=first C++ code, caption=First C++ code]{codes/first.c++}
 
 \noindent \textbf{Output:}
-\lstinputlisting[style=chstyle]{codes/1.txt}
-% \usebox{\mybox}
-% \doublebox{\mybox}
+\lstinputlisting[style=chstyle, label= hello world, caption=First C++ code Output]{codes/1.txt}
 
 \noindent
-1. \fbox{// Your first C++ program }\newline
-In C++, any line starting with \fbox{\color{green}//} is a comment. Comments are
+\textbf{1}. \fbox{\color{green!60!black}// Your first C++ program }\\
+In C++, any line starting with \fbox{\color{green!60!black}//} is a comment. Comments are
 intended for the person reading the code to better understand the
 functionality of the program. It is completely ignored by the C++
 compiler.
 
 \noindent
-2. \fbox{ include}\newline
-The "include" is a preprocessor directive used to include files in our
+\textbf{2}. \fbox{\color{magenta}\#include \color{black}\textless iostream\textgreater}\\
+The \#include is a preprocessor directive used to include files in our
 program. The above code is including the contents of the iostream file.
 
 \noindent
-3. \fbox{int main() {...}}\newline
+\textbf{3}. \fbox{\color{magenta}int \color{black}main() \{...\}}\\
 A valid C++ program must have the main() function. The curly braces
-indicate the start and the end of the function. \newline The execution of
+indicate the start and the end of the function. \\ The execution of
 code beings from this function.
 
 \noindent
-4. \fbox{std::cout << "Hello World!";}\newline
+\textbf{4}. \fbox{std::cout \textless\textless \color{blue!50!red}"Hello World!";}\\
 std::cout prints the content inside the quotation marks.
-It must be followed by << followed by the format string. In our
-example, "Hello World!" is the format string. \newline
+It must be followed by '\textless\textless'  followed by the format string.
+In our example, "Hello World!" is the format string. \\
 \textbf{Note: } \fbox{;} is used to indicate the end of a statement.
 
 \noindent
-5. \fbox{return 0;}\newline
+\textbf{5}. \fbox{\color{magenta}return \color{black} 0;}\\
 The return 0; statement is the "Exit status" of the program.
 In simple terms, the program ends with this statement.
 
+As you might have noticed, the code in \ref{c-sample} looks a little different from the one
+in \ref{first C++ code} but produce the same output do not worry we are going to get to the
+difference soon. \\
+\noindent In \ref{c-sample}, line 7 we used \fbox{\color{purple!85}using namespace \color{black} std;}
+to tell the compiler to use standard namespace. Namespace collects identifiers used for class, object
+and variables. Name space can be used by two ways in a program, either by the use of using statement
+at the beginning, like we did in above mentioned program or by using name of namespace as prefix
+before the identifier with scope resolution (::) operator. Thus with namespace std,
+\fbox{std::cout \color{black}\textless\textless \color{blue!50!red}"Hello World!";}
+becomes \fbox{cout \textless\textless \color{blue!50!red}"Hello World!";}
+like in our previous example, much simpler right !! it is totally up to you, to define on which style
+suits you the most.\\
+\noindent  also, the keyword \fbox{endl} is used to denote the end of a line therefore, the next line 
+of code will be printed on a new line.\\
+It is also important to notice that you could combine instructions into a single one. for example,
+\lstinputlisting[style=chstyle, language=C++, label=Compress C++ code, caption= Compress C++ code ]
+{codes/oneLine.c++}
+This code output the two (02) instructions on 02 lines, you can run the code and see the output.
+
+\subsection{Make your code more readable}
+In order to allow others and yoursel to understand your code, it is recommended to add
+comments to your code. Now we are going to learn how to comment our program. We introduced
+the concept of the in the previous section but lets dive depper into it.\\
+There exists two (02) types of comments :
+\begin{itemize}
+\item {\textbf{Short comments}}: as stated in the names they are short and can be written
+    in one line of code. To write a short comment, you just need to start with \fbox{\color{green!60!black}//}
+    following by your comment.
+\end{itemize}
+\lstinputlisting[style=chstyle, language=C++, label= First short commment, caption= First short commment]
+{codes/comment1.txt}
 
 
+\begin{itemize}
+\item {\textbf{Long comments}}: if your comments are long enough and can not fit in one line,
+    you can have a block comment. You just need to start and end your block comment
+    with \fbox{/*}.
+\end{itemize}
 
+\lstinputlisting[style=chstyle, language=C++, label= First block commment,
+caption= First short commment]{codes/comment2.txt}
 
+\noindent Generally, we do not write too much in the comment section, just the necessary
+information, unless you have to.
 
+\begin{itemize}
+    \item {\textbf{Let's comment our code}}
+\end{itemize}
+\lstinputlisting[
+    style=chstyle, language=C++, label= Comments in C++,
+    caption= Comments in C++
+]{codes/helloworldCommented.c++}
 
+\noindent After you run this code, nothing will change, the output will still be the same
+because comments are simply ignored by the compiler.
 
-
-
-
-
-
-
-
-
-
-
+\subsection{Summary}
+\begin{itemize}
+    \item The execution of code begins from the main() function. This function is mandatory.
+    This is a valid C++ program that does nothing.
+    \item The \fbox{cout} is used to display a message.
+    \item You can comment your codes in two (02) ways
+    \fbox{// Comment} or \fbox{/* Comment */}
+\end{itemize}
 
 
 \end{document}
