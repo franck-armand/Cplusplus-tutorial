@@ -6,3 +6,5 @@
 \contentsline {subsection}{\numberline {1.4}Summary}{5}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Environment setup}{6}{section.2}%
 \contentsline {section}{\numberline {3}Your first C++ code}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Make your code more readable}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Summary}{8}{subsection.3.2}%
