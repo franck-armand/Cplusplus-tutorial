@@ -1,0 +1,1 @@
+int main () {cout << "This my first C++ program, in one line.";cout <<"C++ is fun"}
