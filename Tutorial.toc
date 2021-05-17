@@ -8,3 +8,6 @@
 \contentsline {section}{\numberline {3}Your first C++ code}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Make your code more readable}{7}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Summary}{8}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Introduction to variables in C++}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}what is a variable ?}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Variables Naming conventions}{9}{subsection.4.2}%
