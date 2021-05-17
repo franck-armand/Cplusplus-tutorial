@@ -302,5 +302,52 @@ because comments are simply ignored by the compiler.
     \fbox{// Comment} or \fbox{/* Comment */}
 \end{itemize}
 
+\section{Introduction to variables in C++}
+So far, you have discovered how to create and compile your first programs in console mode.
+Right now these programs are very simple. They display messages on the screen...and nothing
+more. This is mainly due to the fact that your programs do not know how to interact
+with their users. This is what we will learn to do in the next chapter. But before that we need
+to introduce an important concept: \textbf{variables}
+
+\subsection{what is a variable ?}
+The one and only thing you need to know is that a variable is a part of the memory that the computer
+lends us to put values into it. Imagine that the computer has in its entrails a large wardrobe that
+has thousands (billions!) of small drawers; these are places that we will be able to
+use to put our variables into.\\
+In the case of a simple calculator, one can usually store only one number at a time. As you can
+imagine, in the case of a program, we will have to keep more than one thing at the same time.
+So you need a way to differentiate the variables to be able to access them afterwards.
+So each variable has a \textbf{name}. It is in other words the label that is stuck on the drawer.
+\\The other thing that distinguishes the calculator from the computer is that we would like to
+be able to store a lot of different things, numbers, letters, sentences, pictures, etc.
+This is what we call the type of a variable. You can imagine that as the shape of the drawer.
+We do not use the same drawers to store bottles or books.
+
+\subsection{Variables Naming conventions}
+Let’s start with the question of variable names. In C++, there are a few rules that
+govern the different names allowed or prohibited.
+\begin{itemize}
+\item Variable names are made up of letters, numbers and the underscore only;
+\item The first character must be a letter (upper or lower case);
+\item Spaces in the name is not allowed;
+\end{itemize}
+Here are few examples of valid variables: ageZero, first\_name also, AGEZERO are
+allowed variable names. \_ageZero in the other hand is not allowed.\\
+To this is added an additional rule, valid for everything written in C++ and not
+only for variables. Language makes the difference between upper and lower case.
+In technical terms, it is said that C++ is case sensitive. Thus, myAge, myage, MYAGE and
+MyAge are all different variables.\\
+
+Personally, I use a *convention* shared by many programmers. In all the big projects
+with thousands of programmers, there are very strict rules and sometimes difficult
+to follow. The ones I propose to you here allow to keep a good legibility and above
+all, they will allow you to understand all the examples in the rest of this course.
+\begin{itemize}
+\item Variable names start with a lower case;
+\item If the name is composed of several words, they are put together without space;
+\item Each new word (except the first) begins with a capital letter.
+\end{itemize}
+
+
 
 \end{document}
