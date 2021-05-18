@@ -401,10 +401,53 @@ by separating them with a comma (,), just like this:
 \lstinputlisting[style=chstyle, language=C++, label=Single line declaration,
 caption=single line declaration]{codes/multipleVar.c++}
 
-\subsection{Print the value on the screen}
+\subsection{Print message on the screen}
 As we discussed earlier, the key to print a value on the screen. Now let's combine that to
 what we just learn in order to print the value held by our variables. As a remember, the key
-was \fbox{cout}.
+was \fbox{cout}. let consider this example:
+\lstinputlisting[style=chstyle, language=C++, label=Print message on the screen,
+caption=Print message on the screen]{codes/printmsg.c++}
+\textbf{Output}
+\lstinputlisting[style=chstyle, language=C++, label=message output,
+caption=message output]{codes/printMsgOut.txt}
+
+\subsection{Scope of Variables}
+All the variables have their area of functioning, and out of that boundary they don't
+hold their value, this boundary is called scope of the variable. For most of the
+cases its between the curly braces,in which variable is declared that a variable
+exists, not outside it. We will study the storage classes later, but as of now,
+we can broadly divide variables into two main types:\\
+$\bullet$ Global Variables\\
+$\bullet$ Local variables
+
+\subsubsection{Global variables}
+Global variables are those, which are once declared and can be used throughout
+the lifetime of the program. They must be declared
+outside the main() function. If only declared, they can be assigned different
+values at different time in program lifetime. But even if they are declared and
+initialized at the same time outside the main() function, then also they can be
+assigned any value at any point in the program. Here is an exmaple:
+\lstinputlisting[style=chstyle, language=C++, label=Global variable,
+caption=Global variable]{codes/globalVar.c++}
+In this code, the variable x was declared and not initialized (given an initial value)
+and was updated twice inside the main() function. You can run the code and see the output
+
+\subsubsection{Local variables}
+Local variables are the variables which exist only between the curly braces,
+in which its declared. Outside that they are unavailable and leads to compile time error.
+
+\subsection{Summary}
+\begin{itemize}
+\item A variable is an information stored in the memory.
+\item There exists various types of variables : \fbox{bool}, \fbox{char}, \fbox{int} ...
+\item The value of a variable can be displayed at any time with : \fbox{cout}
+\item There exists two types of variables : Global and Local variables
+\end{itemize}
+
+
+
+
+
 
 
 
