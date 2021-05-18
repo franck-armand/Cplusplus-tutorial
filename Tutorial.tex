@@ -338,8 +338,8 @@ only for variables. Language makes the difference between upper and lower case.
 In technical terms, it is said that C++ is case sensitive. Thus, myAge, myage, MYAGE and
 MyAge are all different variables.\\
 
-Personally, I use a *convention* shared by many programmers. In all the big projects
-with thousands of programmers, there are very strict rules and sometimes difficult
+Personally, I use a \textless\textless convention \textgreater\textgreater shared by many programmers.
+In all the big projects with thousands of programmers, there are very strict rules and sometimes difficult
 to follow. The ones I propose to you here allow to keep a good legibility and above
 all, they will allow you to understand all the examples in the rest of this course.
 \begin{itemize}
@@ -347,6 +347,66 @@ all, they will allow you to understand all the examples in the rest of this cour
 \item If the name is composed of several words, they are put together without space;
 \item Each new word (except the first) begins with a capital letter.
 \end{itemize}
+
+Let us look at this with examples. Let us take the case of a variable that is supposed
+to contain the age of the user of the program.
+
+\begin{itemize}
+    \item \fbox{UserAge}: no, because the first letter is a capital letter;
+    \item \fbox{user\_age}: no, because the words are not seperated;
+    \item \fbox{ageuser}: no, because the second word does not start with a capital letter;
+    \item \fbox{ageUser}: ok
+\end{itemize}
+
+I strongly advise you to adopt the same convention. Making your code readable and easily
+understandable by other programmers is very important, and it doesn’t just involve formatting.
+
+\subsection{Variables types (Data types)}
+We learned that a variable has a name and a type. We know how to name our variables, now let’s
+see their different types. The computer likes to know what it has in its memory, so you have
+to indicate what type of element will contain the variable we would like to use. Is it a number,
+a word, a letter? It must be specified.\\
+
+\begin{tabular}{ |p{3cm}||p{10cm}| }
+    \hline
+    \textbf{Data type} & \textbf{What it contains} \\
+    \hline
+    bool  & data type with two possible values: true or false    \\
+    char&   data type that holds one character (letter, number, etc.) of data  \\
+    int &numeric variables holding whole numbers \\
+    unsigned int    &A positive or zero integer number.\\
+    double&   numeric variables holding numbers with decimal points  \\
+    string& data values that are made up of ordered sequences of characters\\
+    \hline
+\end{tabular}
+
+\subsection{Syntaxt of variable declaration}
+In order to declare a variable in C++, the following syntaxt should be applied:
+\lstinputlisting[style=chstyle, language=C++, label=Variables Syntaxt,
+caption=Variables Syntaxt]{codes/var.txt}
+As an example, we have:
+\lstinputlisting[style=chstyle, language=C++, label=Variables declaration,
+caption=Variables declaration]{codes/var.c++}
+
+\subsubsection{Dealing with strings}
+When dealing with strings, the first thing to do is to add a small line at the beginning of your program.
+The compiler needs to be told that we want to use strings. Without this, it
+would not include the tools needed to manage them. Below is an example:
+\lstinputlisting[style=chstyle, language=C++, label=String declaration,
+caption=String declaration]{codes/string.c++}
+
+\subsubsection{Dealing with multiple variables}
+If you have multiple variables of the same type to declare, you can do so on a single line
+by separating them with a comma (,), just like this:
+\lstinputlisting[style=chstyle, language=C++, label=Single line declaration,
+caption=single line declaration]{codes/multipleVar.c++}
+
+\subsection{Print the value on the screen}
+As we discussed earlier, the key to print a value on the screen. Now let's combine that to
+what we just learn in order to print the value held by our variables. As a remember, the key
+was \fbox{cout}.
+
+
 
 
 
