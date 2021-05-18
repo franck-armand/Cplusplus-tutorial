@@ -18,14 +18,18 @@ _The code used in this tutorial are provided
 - Make your code more readable
 - summary
 
-4- Basic syntax
-- Variables
-- Strings
-- User input
-- Binary number and computer memory
-- Integer type
-- Floating point type
-- Other Types: Char and Bool
+4- Introduction to Variables in C++
+- What is a variable ?
+- Variables naming conventions
+- Variable types (Data types)
+- Syntaxt of variable declaration
+- Dealing with strings
+- Dealing with multiple variables
+- Print message on the screen
+- Scope of variables
+- Global variables
+- Local variables
+- Summary
 
 5 - Condition
 - If
