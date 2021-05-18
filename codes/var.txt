@@ -1,0 +1,1 @@
+data_type variable1_name = value1, variable2_name = value2;
