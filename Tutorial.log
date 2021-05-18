@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  18 MAY 2021 23:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  19 MAY 2021 00:50
 entering extended mode
 **b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
 (b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
@@ -472,12 +472,12 @@ LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10.95> not available
 (Font)              Font shape `OT1/txr/bx/it' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 66.
-<diagrams/compling.png, id=131, 543.02875pt x 111.41624pt>
+<diagrams/compling.png, id=157, 543.02875pt x 111.41624pt>
 File: diagrams/compling.png Graphic file (type png)
 <use diagrams/compling.png>
 Package pdftex.def Info: diagrams/compling.png  used on input line 84.
 (pdftex.def)             Requested size: 452.9679pt x 92.94127pt.
-<diagrams/low vs high.png, id=133, 348.30125pt x 318.18875pt>
+<diagrams/low vs high.png, id=159, 348.30125pt x 318.18875pt>
 File: diagrams/low vs high.png Graphic file (type png)
 <use diagrams/low vs high.png>
 Package pdftex.def Info: diagrams/low vs high.png  used on input line 108.
@@ -523,22 +523,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 365--369
 
  []
 
-[9] (codes/var.txt) (codes/var.c++) (codes/string.c++) (codes/multipleVar.c++) [10] (Tutorial.aux)
+[9] (codes/var.txt) (codes/var.c++) (codes/string.c++) (codes/multipleVar.c++) (codes/printmsg.c++ [10]) (codes/printMsgOut.txt) (codes/globalVar.c++) [11] [12] (Tutorial.aux)
 Package rerunfilecheck Info: File `Tutorial.out' has not changed.
-(rerunfilecheck)             Checksum: FE0D36329079B5407AC0F9540AF2084C;3064.
+(rerunfilecheck)             Checksum: 5319A67ACBE48E1BB9648040ACA4C787;3595.
  ) 
 Here is how much of TeX's memory you used:
- 13871 strings out of 479321
- 213675 string characters out of 2856584
- 812888 words of memory out of 3000000
- 30979 multiletter control sequences out of 15000+600000
+ 13936 strings out of 479321
+ 214754 string characters out of 2856584
+ 818136 words of memory out of 3000000
+ 31002 multiletter control sequences out of 15000+600000
  435129 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,8n,74p,352b,2064s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Tutorial.pdf (10 pages, 153563 bytes).
+Output written on Tutorial.pdf (12 pages, 165299 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 154 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

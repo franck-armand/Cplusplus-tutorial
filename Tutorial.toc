@@ -15,4 +15,8 @@
 \contentsline {subsection}{\numberline {4.4}Syntaxt of variable declaration}{10}{subsection.4.4}%
 \contentsline {subsubsection}{\numberline {4.4.1}Dealing with strings}{10}{subsubsection.4.4.1}%
 \contentsline {subsubsection}{\numberline {4.4.2}Dealing with multiple variables}{10}{subsubsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.5}Print the value on the screen}{10}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.5}Print message on the screen}{10}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Scope of Variables}{11}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}Global variables}{11}{subsubsection.4.6.1}%
+\contentsline {subsubsection}{\numberline {4.6.2}Local variables}{11}{subsubsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.7}Summary}{12}{subsection.4.7}%

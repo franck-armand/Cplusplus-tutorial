@@ -9,3 +9,6 @@
 \contentsline {lstlisting}{\numberline {9}Variables declaration}{10}{lstlisting.9}%
 \contentsline {lstlisting}{\numberline {10}String declaration}{10}{lstlisting.10}%
 \contentsline {lstlisting}{\numberline {11}single line declaration}{10}{lstlisting.11}%
+\contentsline {lstlisting}{\numberline {12}Print message on the screen}{11}{lstlisting.12}%
+\contentsline {lstlisting}{\numberline {13}message output}{11}{lstlisting.13}%
+\contentsline {lstlisting}{\numberline {14}Global variable}{11}{lstlisting.14}%
