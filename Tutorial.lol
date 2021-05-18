@@ -5,3 +5,7 @@
 \contentsline {lstlisting}{\numberline {5}First short commment}{7}{lstlisting.5}%
 \contentsline {lstlisting}{\numberline {6}First short commment}{7}{lstlisting.6}%
 \contentsline {lstlisting}{\numberline {7}Comments in C++}{8}{lstlisting.7}%
+\contentsline {lstlisting}{\numberline {8}Variables Syntaxt}{10}{lstlisting.8}%
+\contentsline {lstlisting}{\numberline {9}Variables declaration}{10}{lstlisting.9}%
+\contentsline {lstlisting}{\numberline {10}String declaration}{10}{lstlisting.10}%
+\contentsline {lstlisting}{\numberline {11}single line declaration}{10}{lstlisting.11}%

@@ -11,3 +11,8 @@
 \contentsline {section}{\numberline {4}Introduction to variables in C++}{8}{section.4}%
 \contentsline {subsection}{\numberline {4.1}what is a variable ?}{8}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Variables Naming conventions}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Variables types (Data types)}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Syntaxt of variable declaration}{10}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Dealing with strings}{10}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Dealing with multiple variables}{10}{subsubsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.5}Print the value on the screen}{10}{subsection.4.5}%
