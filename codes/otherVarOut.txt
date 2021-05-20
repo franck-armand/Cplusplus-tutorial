@@ -1,0 +1,4 @@
+What is your name ?
+Albert Einstein
+What is the value of PI ?
+Your name is Albert and you think PI is 0.
