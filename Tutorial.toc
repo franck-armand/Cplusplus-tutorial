@@ -1,22 +1,38 @@
-\contentsline {section}{\numberline {1}Getting Started}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Understand the Computer Language}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}C++ against other programming languages}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Summary of C++}{4}{subsection.1.3}%
-\contentsline {paragraph}{Snippet of C++}{5}{section*.4}%
-\contentsline {subsection}{\numberline {1.4}Summary}{5}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Environment setup}{6}{section.2}%
-\contentsline {section}{\numberline {3}Your first C++ code}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Make your code more readable}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Summary}{8}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Introduction to variables in C++}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}what is a variable ?}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Variables Naming conventions}{9}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Variables types (Data types)}{9}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Syntaxt of variable declaration}{10}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Dealing with strings}{10}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Dealing with multiple variables}{10}{subsubsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.5}Print message on the screen}{10}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Scope of Variables}{11}{subsection.4.6}%
-\contentsline {subsubsection}{\numberline {4.6.1}Global variables}{11}{subsubsection.4.6.1}%
-\contentsline {subsubsection}{\numberline {4.6.2}Local variables}{11}{subsubsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.7}Summary}{12}{subsection.4.7}%
+\contentsline {section}{\numberline {1}Getting Started}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Understand the Computer Language}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}C++ against other programming languages}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Summary of C++}{5}{subsection.1.3}%
+\contentsline {paragraph}{Snippet of C++}{6}{section*.4}%
+\contentsline {subsection}{\numberline {1.4}Summary}{6}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Environment setup}{7}{section.2}%
+\contentsline {section}{\numberline {3}Your first C++ code}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Make your code more readable}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Summary}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Introduction to variables in C++}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}what is a variable ?}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Variables Naming conventions}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Variables types (Data types)}{10}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Syntaxt of variable declaration}{11}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Dealing with strings}{11}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Dealing with multiple variables}{11}{subsubsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.5}Print message on the screen}{11}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Scope of Variables}{12}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}Global variables}{12}{subsubsection.4.6.1}%
+\contentsline {subsubsection}{\numberline {4.6.2}Local variables}{12}{subsubsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.7}Summary}{13}{subsection.4.7}%
+\contentsline {section}{\numberline {5}How to handle user input}{13}{section.5}%
+\contentsline {subsubsection}{\numberline {5.0.1}Other variables}{13}{subsubsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.1}Problem with space}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Update a variable}{15}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Constants}{15}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}declare a constant}{15}{subsubsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.4}Operators in C++}{15}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Assignment Operator (=)}{16}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Basic Arithmetic Operators (+, -, *, /, \%)}{16}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.3}Assignment Operators}{16}{subsubsection.5.4.3}%
+\contentsline {subsubsection}{\numberline {5.4.4}Auto-increment and Auto-decrement Operators}{17}{subsubsection.5.4.4}%
+\contentsline {subsubsection}{\numberline {5.4.5}Logical Operators}{17}{subsubsection.5.4.5}%
+\contentsline {subsubsection}{\numberline {5.4.6}Relational operators}{18}{subsubsection.5.4.6}%
+\contentsline {subsubsection}{\numberline {5.4.7}Bitwise Operators}{18}{subsubsection.5.4.7}%
+\contentsline {subsubsection}{\numberline {5.4.8}Ternary Operator}{19}{subsubsection.5.4.8}%
+\contentsline {subsection}{\numberline {5.5}Summary}{19}{subsection.5.5}%
