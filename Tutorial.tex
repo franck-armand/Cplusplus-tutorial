@@ -444,11 +444,193 @@ in which its declared. Outside that they are unavailable and leads to compile ti
 \item There exists two types of variables : Global and Local variables
 \end{itemize}
 
+\section{How to handle user input}
+In the previous chapter, I explained how to display variables in the console. 
+Now let’s see how to do the opposite, which is to ask the user for information
+to store it in memory. let's look at an example.
+\lstinputlisting[style=chstyle, language=C++, label=Saving a variable in the memory,
+caption=Saving a variable in the memory]{codes/cin.c++}
+\textbf{Output}
+\lstinputlisting[style=chstyle, language=C++, label=Saving a variable in the memory output,
+caption=Saving a variable in the memory]{codes/cinOut.txt}
+The program displayed "how old are are you ?". So far so good, right ? and on line 8,
+the program ask for to store an integer in the memory then, at this moment, the program
+ask for user input and updates the variable ageUser initially declared to be holding the
+value 0. Finally, the program prints a message along with the user input.\\
+When you display the value of a variable, the data comes out of the program,
+so you use an arrow going from the variable to \fbox{cout}. When we ask the user
+for information, it is the opposite, the value comes from \fbox{cin} and goes into the variable.
 
+\subsubsection{Other variables}
+Obviously, what I presented to you also works with other types of variables.
+Let’s look at that with a small example.
+\lstinputlisting[style=chstyle, language=C++, label=Other variables,
+caption=Other variables]{codes/otherVar.c++}
+I don’t think I even need to explain it. But I would encourage you to test
+it to get a full understanding of what’s going on.
 
+\subsection{Problem with space}
+Have you tested the previous code by putting your name and surname?
+Let’s see what happens.
+\lstinputlisting[style=chstyle, language=C++, label=Problem with space example,
+caption=Problem with space example]{codes/otherVarOut.txt}
+It’s a space problem. When you press the Enter key, the computer copies what
+the user wrote into the memory. But it stops at the first space or return
+to the line. When it comes to a number, there is no problem because there is
+no space in the numbers.\\
+for Strings, a question arises. There may very well be a space in a string.
+And so the computer will cut in the wrong place, which is after the first word.
+In fact, it should be possible to retrieve the whole line rather than just the first word.
+In order to do so, we use the \fbox{getline()} function. Later, we will explain in details
+what is a function. So if we modify the the previous code by simply replacing the
+\fbox{cin \textgreater\textgreater userName; } by \fbox{getline()}
+\lstinputlisting[style=chstyle, language=C++, label=getline example,
+caption=getline example]{codes/getLine.c++}
+\lstinputlisting[style=chstyle, language=C++, label=getline output,
+caption=getline output]{codes/getLineOut.txt}
 
+\subsection{Update a variable}
+Let’s start by looking at how to change the content of a variable.
+We use the "=" symbol to make a value change. If I have a type \fbox{int} variable whose
+content I want to change, I write the name of my variable followed by
+the "=" symbol and finally the new value.
+\lstinputlisting[style=chstyle, language=C++, label=update variables,
+label=update variables]{codes/assignVar.c++}
 
+\subsection{Constants}
+I told you how to modify variables. I hope you understood! Because
+we’re going to do the opposite. I will show you how to declare non-modifiable variables
+(constants).\\
+Pensez à une calculatrice, qui aura besoin de la constante $\pi$. This value never changes
+$\pi$ will always 3.14.\\
+But that’s not all. There are also variables whose value never changes but whose value is
+not known in advance. Let’s take the result of an operation in a calculator.
+Once the calculation is done, the result does not change. The variable that
+contains the result is therefore a constant.\\
+So let’s see how to declare such a variable.
 
+\subsubsection{declare a constant}
+It’s very simple. You declare a normal variable and add the keyword \fbox{const} between the type
+and the name. Also it applies to all variables types.
+\lstinputlisting[style=chstyle, language=C++, label=declare a constant,
+caption=declare a constant]{codes/const.c++}
+
+\subsection{Operators in C++}
+Operators are special type of functions, that takes one or more arguments
+and produces a new value. For example : addition (+), substraction (-),
+multiplication (*) etc, are all operators. Operators are used to perform
+various operations on variables and constants.
+
+\subsubsection{Assignment Operator (=)}
+Operates '=' is used for assignment, it takes the right-hand side (called rvalue)
+and copy it into the left-hand side (called lvalue). Assignment operator is the
+only operator which can be overloaded but cannot be inherited. As an example, we have
+\fbox{x = 10;} This statement assigns the integer value 10 to the variable x.\\
+\textbf{Note:} The assignment operation always takes place from right to left,
+and never the other way around. Another example: \fbox{a = b = c = 10}
+It assigns 5 to the all three variables: a, b and c; always from right-to-left.
+
+\subsubsection{Basic Arithmetic Operators (+, -, *, /, \%)}
+
+\begin{tabular}{ |p{3cm}||p{5cm}| }
+    \hline
+    \textbf{Operator} & \textbf{Description} \\
+    \hline
+    +  & addition    \\
+    ** &   Multiplication  \\
+    / & Division \\
+    \%    &Modulo\\
+    \hline
+\end{tabular}\\
+\newline\textbf{Note:} Modulo operator returns remainder, for example 20 \% 5 would return 0.
+\lstinputlisting[style=chstyle, language=C++, label=Example of Arithmetic Operators,
+caption=Example of Arithmetic Operators]{codes/arithmetic.c++}
+
+\subsubsection{Assignment Operators}
+Assignments operators in C++ are: =, +=, -=, *=, /=, \%= \\
+num2 = num1 would assign value of variable num1 to the variable.\\
+num2+=num1 is equal to num2 = num2+num1;\\
+num2-=num1 is equal to num2 = num2-num1;\\
+num2/=num1 is equal to num2 = num2/num1;\\
+num2\%=num1 is equal to num2 = num2\%num1;\\
+\newline by applying thisto the previous example we have:
+\lstinputlisting[style=chstyle, language=C++, label=Assignment Operators,
+label=Assignment Operators]{codes/assignment.c++}
+
+\subsubsection{Auto-increment and Auto-decrement Operators}
+Here we are going to talk about the following operators: ++ and --.\\
+num++ is equivalent to num=num+1;\\
+num–- is equivalent to num=num-1;
+\lstinputlisting[style=chstyle, language=C++, label=auto increment/decrement,
+caption=auto increment/decrement]{codes/increment.c++}
+
+\subsubsection{Logical Operators}
+Logical Operators are used with binary variables. They are mainly used in
+conditional statements and loops for evaluating a condition. We have \&\&,$\|$ and !
+Given two boolean variables b1 and b2.\\
+$\bullet$ b1\&\&b2 will return true if both b1 and b2 are true else it would return false.\\
+$\bullet$ b1$\|$b2 will return false if both b1 and b2 are false else it would return true.\\
+$\bullet$ !b1 would return the opposite of b1, that means it would be true if b1 is false and
+it would return false if b1 is true.
+\lstinputlisting[style=chstyle, language=C++, label=Logic operators example,
+caption=logic operators example]{codes/logicOp.c++}
+
+\subsubsection{Relational operators}
+We have six relational operators in C++: ==, !=, \textgreater, \textless,  \textless =,
+\textgreater =.
+
+\begin{tabular}{ |p{3cm}||p{10cm}| }
+    \hline
+    \textbf{Data type} & \textbf{What it contains} \\
+    \hline
+    ==  & returns true if both the left side and right side are equal   \\
+    != & returns true if left side is not equal to the right side of operator. \\
+    \textless &returns true if left side is less than right side.\\
+    \textgreater& returns true if left side is greater than right.  \\
+    \textgreater = & returns true if left side is greater than or equal to right side.\\
+    \textless = & returns true if left side is less than or equal to right side\\
+    \hline
+\end{tabular}
+
+\subsubsection{Bitwise Operators}
+There are six bitwise Operators: $\&$, $\|$,\textless\textless, \textgreater\textgreater,
+%Tilde, %^
+Bitwise operator performs bit by bit processing.\\
+\fbox{num1 = 11; //equal to 00001011} and \fbox{num2 = 22; // equal to 00010110}\\
+num1 $\&$ num2 compares corresponding bits of num1 and num2 and generates 1 if both bits
+are equal, else it returns 0. In our case it would return: 2 which is 00000010 because
+in the binary form of num1 and num2 only second last bits are matching.\\
+num1 $\|$ num2 compares corresponding bits of num1 and num2 and generates 1 if either
+bit is 1, else it returns 0. In our case it would return 31 which is 00011111.\\
+num1 () num2 compares corresponding bits of num1 and num2 and generates 1 if they
+are not equal, else it returns 0. In our example it would return 29 which is
+equivalent to 00011101.\\
+~num1 is a complement operator that just changes the bit from 0 to 1 and 1 to 0.
+In our example it would return -12 which is signed 8 bit equivalent to 11110100\\
+num1 \textgreater\textgreater 2 is left shift operator that moves the bits to the left,
+discards the farleft bit, and assigns the rightmost bit a value of 0. In our case output is 44 which
+is equivalent to 00101100.\\
+
+\textbf{Note:} In the example below we are providing 2 at the right side of this shift operator
+that is the reason bits are moving two places to the left side. We can change this
+number and bits would be moved by the number of bits specified on the right side
+of the operator. Same applies to the right side operator.\\
+num1 \textgreater\textgreater 2 is right shift operator that moves the bits to the right, discards
+the far right bit, and assigns the leftmost bit a value of 0. In our case
+output is 2 which is equivalent to 00000010
+\lstinputlisting[style=chstyle, language=C++, label=Bitwise operator example,
+caption=Bitwise operator example]{codes/bitwise.c++}
+
+\subsubsection{Ternary Operator}
+This operator evaluates a boolean expression and assign the value based on the result.\\
+here is the syntaxt
+\fbox{variable num1 = (expression) ? value if true : value if false}.\\
+If the expression results true then the first value before the colon (:)
+is assigned to the variable num1 else the second value is assigned to the num1.
+\lstinputlisting[style=chstyle, language=C++, label=Ternary operator example,
+caption=Ternary operator example]{codes/ternary.c++}
+
+\subsection{Summary}
 
 
 
