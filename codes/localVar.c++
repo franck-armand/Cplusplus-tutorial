@@ -8,5 +8,5 @@ int main()
     {
         int n=100;   // Local variable declared and initialized
     }              // if condition scope ends
-    cout << n;      // Compile time error, n not available here
+    //cout << n;      // Compile time error, n not available here
 }
