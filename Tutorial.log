@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  20 MAY 2021 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  23 MAY 2021 23:41
 entering extended mode
 **b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
 (b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
@@ -455,7 +455,7 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
  (Tutorial.toc
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1.
-)
+ [2])
 \tf@toc=\write4
 \openout4 = `Tutorial.toc'.
 
@@ -463,21 +463,21 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
 \tf@lof=\write5
 \openout5 = `Tutorial.lof'.
 
- (Tutorial.lol [2])
+ (Tutorial.lol [3])
 \tf@lol=\write6
 \openout6 = `Tutorial.lol'.
 
- [3]
+ [4]
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10.95> not available
 (Font)              Font shape `OT1/txr/bx/it' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 66.
-<diagrams/compling.png, id=269, 543.02875pt x 111.41624pt>
+<diagrams/compling.png, id=359, 543.02875pt x 111.41624pt>
 File: diagrams/compling.png Graphic file (type png)
 <use diagrams/compling.png>
 Package pdftex.def Info: diagrams/compling.png  used on input line 84.
 (pdftex.def)             Requested size: 452.9679pt x 92.94127pt.
-<diagrams/low vs high.png, id=271, 348.30125pt x 318.18875pt>
+<diagrams/low vs high.png, id=361, 348.30125pt x 318.18875pt>
 File: diagrams/low vs high.png Graphic file (type png)
 <use diagrams/low vs high.png>
 Package pdftex.def Info: diagrams/low vs high.png  used on input line 108.
@@ -486,11 +486,11 @@ Package pdftex.def Info: diagrams/low vs high.png  used on input line 108.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./diagrams/compling.png>]
+[5 <./diagrams/compling.png>]
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 123.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [5 <./diagrams/low vs high.png>] (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+) [6 <./diagrams/low vs high.png>] (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -500,7 +500,7 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 140.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
-) [6] (codes/first.c++) (codes/1.txt)
+) [7] (codes/first.c++) (codes/1.txt)
 LaTeX Font Info:    Trying to load font information for OML+txr on input line 218.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxr.fd
 File: omltxr.fd 2000/12/15 v3.1
@@ -513,7 +513,7 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 223.
- [7] (codes/oneLine.c++) (codes/comment1.txt) (codes/comment2.txt) (codes/helloworldCommented.c++ [8]) [9]
+ [8] (codes/oneLine.c++) (codes/comment1.txt) (codes/comment2.txt) (codes/helloworldCommented.c++ [9]) [10]
 Underfull \hbox (badness 10000) in paragraph at lines 334--340
 
  []
@@ -523,12 +523,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 365--369
 
  []
 
-[10] (codes/var.txt) (codes/var.c++) (codes/string.c++) (codes/multipleVar.c++) (codes/printmsg.c++ [11]) (codes/printMsgOut.txt) (codes/globalVar.c++) [12] (codes/cin.c++) (codes/cinOut.txt)
+[11] (codes/var.txt) (codes/var.c++) (codes/string.c++) (codes/multipleVar.c++) (codes/printmsg.c++ [12]) (codes/printMsgOut.txt) (codes/globalVar.c++) [13] (codes/cin.c++) (codes/cinOut.txt)
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 464.
 
-(codes/otherVar.c++ [13]) (codes/otherVarOut.txt) (codes/getLine.c++ [14]) (codes/getLineOut.txt) (codes/assignVar.c++) (codes/const.c++) [15]
+(codes/otherVar.c++ [14]) (codes/otherVarOut.txt) (codes/getLine.c++ [15]) (codes/getLineOut.txt) (codes/assignVar.c++) (codes/const.c++) [16]
 Underfull \hbox (badness 10000) in paragraph at lines 535--547
 
  []
@@ -538,27 +538,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 550--558
 
  []
 
-(codes/assignment.c++ [16]) (codes/increment.c++) (codes/logicOp.c++ [17])
+(codes/assignment.c++ [17]) (codes/increment.c++) (codes/logicOp.c++ [18])
 Underfull \hbox (badness 10000) in paragraph at lines 596--613
 
  []
 
-(codes/bitwise.c++ [18]) (codes/ternary.c++) [19] (Tutorial.aux)
+(codes/bitwise.c++ [19]) (codes/ternary.c++) [20]
+Underfull \hbox (badness 10000) in paragraph at lines 648--652
+
+ []
+
+(codes/ifStatement.c++) (codes/ifEg.c++) [21] (codes/ifNested.c++) (codes/ifNested.c++) (codes/ifElse.c++) (codes/ifElseEg.c++ [22]) (codes/ifElseIl.c++) (codes/ifElseIfEg.c++ [23]) (codes/whileLoop.c++) (codes/whileLoopEg.c++) [24] (codes/doWhileEg.c++) (codes/forLoopEg.c++ [25]) (codes/switch.c++) [26] (Tutorial.aux)
 Package rerunfilecheck Info: File `Tutorial.out' has not changed.
-(rerunfilecheck)             Checksum: CCBD7712AB2F3827D1A5203EE4EE2914;6319.
+(rerunfilecheck)             Checksum: A92FA28FEBBCF614E23AA0090DF9C4FB;7921.
  ) 
 Here is how much of TeX's memory you used:
- 14333 strings out of 479321
- 221209 string characters out of 2856584
- 982322 words of memory out of 3000000
- 31128 multiletter control sequences out of 15000+600000
+ 14718 strings out of 479321
+ 227523 string characters out of 2856584
+ 983389 words of memory out of 3000000
+ 31230 multiletter control sequences out of 15000+600000
  435129 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,8n,74p,401b,2086s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,8n,74p,401b,2133s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Tutorial.pdf (19 pages, 238062 bytes).
+Output written on Tutorial.pdf (26 pages, 300023 bytes).
 PDF statistics:
- 766 PDF objects out of 1000 (max. 8388607)
- 384 named destinations out of 1000 (max. 500000)
- 307 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1143 PDF objects out of 1200 (max. 8388607)
+ 629 named destinations out of 1000 (max. 500000)
+ 403 words of extra memory for PDF output out of 10000 (max. 10000000)
 
