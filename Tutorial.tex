@@ -632,8 +632,205 @@ caption=Ternary operator example]{codes/ternary.c++}
 
 \subsection{Summary}
 \begin{itemize}
-    \item To ask the user to enter information, we use the 
+    \item To ask the user to enter information, we use \fbox{cin \textgreater\textgreater variable;}
+    \item There is a difference between \fbox{cin \textgreater\textgreater } and \fbox{cout \textless\textless}
+    \item The function \fbox {getline()} is used to get the entire user input (specially input with space)
+    \item The computer is indeed a super calculator that performs multiple operations (arithmetic etc.)
 \end{itemize}
+
+\section{Decision making}
+Programs must be able to make decisions. To achieve this, developers use so-called control structures.
+This name mainly hides in fact two elements that we will see in this chapter:\\
+$\bullet$ Conditions : they allow you to write rules in the program like If this happens, then do this.\\
+$\bullet$ Loops : they allow a series of instructions to be repeated several times.
+
+\subsection{if - condition}
+The if statement can be presented and use in different forms depending on the task we are trying to solve
+and the conditions to be tested. Here are the various forms that the if condition can take:\\
+** \textit{if statement}\\ ** \textit{nested if statement}\\ **\textit{if-else statement}\\
+**\textit{if-else-if statement}\\
+
+\subsubsection{if statement}
+If statement consists a condition, followed by statement or a set of statements. Below is the basic structure
+of a simple if statement.
+\lstinputlisting[style=chstyle, language=C++, label=Basic if statement structure,
+caption=Basic if statement structure]{codes/ifStatement.c++}
+The statements inside if parenthesis (usually referred as if body) gets executed only when
+the given condition is true. If the condition is false then the statements inside if body
+are completely ignored. Let's see an example
+\lstinputlisting[style=chstyle, language=C++, label=if statement example,
+caption= if statement example]{codes/ifEg.c++}
+
+\subsubsection{Nested if statement}
+An if statement inside another if statement is called nested if statement then it is called
+the nested if statement. Here is the basic structure of the nested if statement.
+\lstinputlisting[style=chstyle, language=C++, label=Nested if statement structure,
+label=Nested if statement structure]{codes/ifNested.c++}
+Statement$1$ would execute if the condition\_1 is true. Statement$2$ would only execute
+if both the conditions( condition\_1 and condition\_2) are true. let's see an example.
+\lstinputlisting[style=chstyle, language=C++, label=Nested if example,
+caption=Nested if example]{codes/ifNested.c++}
+
+\subsubsection{if...else statement}
+The general form of a simple if...else statement is,
+\lstinputlisting[style=chstyle, language=C++, label= if...else structure,
+label=if...else structure]{codes/ifElse.c++}
+If the 'expression' is true or returns true, then the 'statement$1$' will get executed,
+else 'statement$1$' will be skipped and 'statement$2$' will be executed. Here is an example.
+\lstinputlisting[style=chstyle, language=C++, label=if...else example,
+caption= if...else example]{codes/ifElseEg.c++}
+
+\subsubsection{if-else-if statement}
+if-else-if statement is used when we need to check multiple conditions. This is how it looks:
+\lstinputlisting[style=chstyle, language=C++, label=if-else-if structure,
+caption=if-else-if structure]{codes/ifElseIl.c++}
+\textbf{Note:} The most important point to note here is that in if-else-if, as soon as the
+condition is met, the corresponding set of statements get executed, rest gets ignored.
+If none of the condition is met then the statements inside “else” gets executed.
+Here is an example of if-else-if statement.
+\lstinputlisting[style=chstyle, language=C++, label=if-else-if example,
+caption=if-else-if example]{codes/ifElseIfEg.c++}
+
+\subsection{while loop}
+In while loop, condition is evaluated first and if it returns true then the statements
+inside while loop execute, this happens repeatedly until the condition returns false.
+When condition returns false, the control comes out of loop and jumps to the next statement
+in the program after while loop. Here is the basic structure of a while loop.
+\lstinputlisting[style=chstyle, language=C++, label=while loop structure,
+caption=while loop structure]{codes/whileLoop.c++}
+One important point is to increment or decrement statement inside while loop so that the loop variable
+gets changed on each iteration to stop the loop from running indefinitely.
+\lstinputlisting[style=chstyle, language=C++, label=while loop example,
+caption=while loop example]{codes/whileLoopEg.c++}
+
+\subsection{do-while loop}
+In some situations it is necessary to execute body of the loop before testing the condition.
+Such situations can be handled with the help of do-while loop. do statement evaluates the body
+of the loop first and at the end, the condition is checked using while statement. General format
+of do-while loop is : \fbox{do statement while (condition);}. let's see an example:
+\lstinputlisting[style=chstyle, language=C++, label=do-while loop example,
+caption=do-while loop example]{codes/doWhileEg.c++}
+
+\subsection{for loop}
+for loop is used to execute a set of statement repeatedly until a particular condition is satisfied.
+The General format is : \fbox{for (initialization; condition; increment/decrement) statement;}. Here
+is an example.
+\lstinputlisting[style=chstyle, language=C++, label=for loop example,
+caption=for loop example]{codes/forLoopEg.c++}
+
+\subsection{Jumping out of a loop}
+Sometimes, while executing a loop, it becomes necessary to skip a part of the loop or to leave
+the loop as soon as certain condition becocmes true, that is jump out of loop.
+\subsubsection{Continue}
+
+
+\subsection{switch}
+Switch case statement is used when we have multiple conditions and we need to perform different
+action based on the condition. When we have multiple conditions and we need to execute a block of
+statements when a particular condition is satisfied.In such case either we can use lengthy
+if..else-if statement or switch case. Here is the syntaxt of a switch case statement
+\lstinputlisting[style=chstyle, language=C++, label=Switch syntaxt,
+caption=Switch syntaxt]{codes/switch.c++}
+Switch checks the value of the expression and verify if it is equal to constant\_1, if the value happens
+to be the same, c++ code 1 gets executed until it reaches the the break statement sand terminate the
+program. In case the expression wa not equal to constant\_1, the following condition gets tested 
+and executed. In case none of them satistied the conditions, the default condition gets executed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
