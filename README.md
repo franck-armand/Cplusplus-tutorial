@@ -31,13 +31,21 @@ _The code used in this tutorial are provided
 - Local variables
 - Summary
 
-5 - Condition
-- If
-- If-Else
+5 - How to handle user input
+- Other variables
+- Problem with space
+- Update a variable
+- Constants 
+- Operators 
+- summary
+
+6- Decision making
+- If condition
+- while loop
+- do-while loop
 - For loop
-- While Loops
-- Do-while Loops
 - Break and continue
+- switch
 - Arrays - Lists of Data
 - Multidimensional Arrays
 - Sizeof and Arrays
