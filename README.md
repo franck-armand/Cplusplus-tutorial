@@ -46,11 +46,7 @@ _The code used in this tutorial are provided
 - For loop
 - Break and continue
 - switch
-- Arrays - Lists of Data
-- Multidimensional Arrays
-- Sizeof and Arrays
-- Sizeof multidimensional Arrays
-- Switch
+- Summary
 
 6- Reusable Blocks of code
 - Functions
