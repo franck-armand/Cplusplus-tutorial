@@ -205,7 +205,7 @@ to do is display the message "Hello World" on the output screen.
 \lstinputlisting[language=c++, style=chstyle, label=first C++ code, caption=First C++ code]{codes/first.c++}
 
 \noindent \textbf{Output:}
-\lstinputlisting[style=chstyle, label= hello world, caption=First C++ code Output]{codes/1.txt}
+\lstinputlisting[style=chstyle, label=hello world, caption=First C++ code Output]{codes/1.txt}
 
 \noindent
 \textbf{1}. \fbox{\color{green!60!black}// Your first C++ program }\\
@@ -266,7 +266,7 @@ There exists two (02) types of comments :
     in one line of code. To write a short comment, you just need to start with \fbox{\color{green!60!black}//}
     following by your comment.
 \end{itemize}
-\lstinputlisting[style=chstyle, language=C++, label= First short commment, caption= First short commment]
+\lstinputlisting[style=chstyle, language=C++, label=First short commment, caption= First short commment]
 {codes/comment1.txt}
 
 
@@ -276,7 +276,7 @@ There exists two (02) types of comments :
     with \fbox{/*}.
 \end{itemize}
 
-\lstinputlisting[style=chstyle, language=C++, label= First block commment,
+\lstinputlisting[style=chstyle, language=C++, label=First block commment,
 caption= First short commment]{codes/comment2.txt}
 
 \noindent Generally, we do not write too much in the comment section, just the necessary
@@ -286,8 +286,8 @@ information, unless you have to.
     \item {\textbf{Let's comment our code}}
 \end{itemize}
 \lstinputlisting[
-    style=chstyle, language=C++, label= Comments in C++,
-    caption= Comments in C++
+    style=chstyle, language=C++, label=Comments in C++,
+    caption=Comments in C++
 ]{codes/helloworldCommented.c++}
 
 \noindent After you run this code, nothing will change, the output will still be the same
@@ -648,7 +648,7 @@ $\bullet$ Loops : they allow a series of instructions to be repeated several tim
 The if statement can be presented and use in different forms depending on the task we are trying to solve
 and the conditions to be tested. Here are the various forms that the if condition can take:\\
 ** \textit{if statement}\\ ** \textit{nested if statement}\\ **\textit{if-else statement}\\
-**\textit{if-else-if statement}\\
+**\textit{if-else-if statement}
 
 \subsubsection{if statement}
 If statement consists a condition, followed by statement or a set of statements. Below is the basic structure
@@ -721,8 +721,18 @@ caption=for loop example]{codes/forLoopEg.c++}
 \subsection{Jumping out of a loop}
 Sometimes, while executing a loop, it becomes necessary to skip a part of the loop or to leave
 the loop as soon as certain condition becocmes true, that is jump out of loop.
-\subsubsection{Continue}
 
+\subsubsection{Continue}
+It causes the control to go directly to the test-condition and then continue the loop process.
+On encountering continue, cursor leave the current cycle of loop, and starts with the next cycle.
+\lstinputlisting[style=chstyle, language=C++, label=continue example,
+caption=continue example]{codes/continueEg.c++}
+
+\subsubsection{break}
+When break statement is encountered inside a loop, the loop is immediately exited and the program
+continues with the statement immediately following the loop. let's see an example
+\lstinputlisting[style=chstyle, language=C++, label=break example,
+caption=break example]{codes/breakEg.c++}
 
 \subsection{switch}
 Switch case statement is used when we have multiple conditions and we need to perform different
@@ -733,29 +743,63 @@ if..else-if statement or switch case. Here is the syntaxt of a switch case state
 caption=Switch syntaxt]{codes/switch.c++}
 Switch checks the value of the expression and verify if it is equal to constant\_1, if the value happens
 to be the same, c++ code 1 gets executed until it reaches the the break statement sand terminate the
-program. In case the expression wa not equal to constant\_1, the following condition gets tested 
+program. In case the expression wa not equal to constant\_1, the following condition gets tested
 and executed. In case none of them satistied the conditions, the default condition gets executed.
+\lstinputlisting[style=chstyle, language=C++, label=Switch example,
+caption=Switch example]{codes/switchEg.c++}
+In the above program, the integer i corresponds to the case 2, therefore the code block of that
+case gets executed.
 
+\subsection{Summary}
+\begin{itemize}
+    \item The conditions allow to test the value of the variables and to modify the behavior
+     of the program accordingly.
+     \item Loops allow you to repeat instructions many times.
+     \item You can also use characters in switch case.
+\end{itemize}
 
+\newpage
+\section{Functions in C++}
+A function is a block of code which is used to perform a particular task,
+for example let’s say you are writing a large C++ program and in that program
+you want to do a particular task several number of times, in order to do that you
+have to write few lines of code and you need
+to repeat these lines every time. In order
+to do that, you can write a function and call that function every time you
+want to perform that specific task. This would make you code simple,
+readable and reusable. Also, functions are used to provide modularity to a program.
+Creating an application using function makes it easier to understand, edit,
+check errors etc.
+\lstinputlisting[style=chstyle, language=C++, label=Function structure,
+caption=Function structure]{codes/funBasic.c++}
+$\bullet$\textbf{return-type:} defines what the function will return. It can be int,
+char etc. Also, there exist functions that can do not return anything, they are mentioned
+with a return-type: void.\\
+$\bullet$ \textbf{Function Name:} is the name of the function, using the function
+name it is called.\\
+$\bullet$ \textbf{Parameters:} are variables to hold values of arguments passed while
+function is called. A function may or may not contain parameter list.\\
+$\bullet$ \textbf{Function body:} it contains your code statement are written.
+Let's look at a concrete example for functions. We are going to create a simple function that
+adds to numbers.
+\lstinputlisting[style=chstyle, language=C++, label=Function example,
+caption=Function example]{codes/funcAdd.c++}
+As we can see from the above code, the function sum() was created and called before the main
+function, and there is a reason for that, we will get to that later. For the meantime
+less understand the code. The sum() function takes two (02) arguments which are
+num1 and num2. Inside the the body of the sum() function we notice an arithmetic
+operation that is the addition of num1 and num2 and the result being kept in another
+variable, num3 and finally the function return the final result of the operation kept
+in num3.\\
+The main() function simply calls the the sum() function and pass it the two arguments
+(2, 3) which represents num1 and num2 for the sum() function and adds the result
+into the variable result.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\subsection{Calling a Function}
+Functions are called by their names as we saw in the previous example.
+When the function does not have an argument,
+it can be called directly using its name. On the contrary, for functions with
+arguments we have two ways to call them,
 
 
 
