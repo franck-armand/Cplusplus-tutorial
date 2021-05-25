@@ -47,4 +47,8 @@
 \contentsline {subsection}{\numberline {6.4}for loop}{25}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}Jumping out of a loop}{26}{subsection.6.5}%
 \contentsline {subsubsection}{\numberline {6.5.1}Continue}{26}{subsubsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.6}switch}{26}{subsection.6.6}%
+\contentsline {subsubsection}{\numberline {6.5.2}break}{26}{subsubsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.6}switch}{27}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Summary}{28}{subsection.6.7}%
+\contentsline {section}{\numberline {7}Functions in C++}{29}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Calling a Function}{30}{subsection.7.1}%

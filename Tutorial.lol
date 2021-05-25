@@ -38,4 +38,9 @@
 \contentsline {lstlisting}{\numberline {34}while loop example}{24}{lstlisting.34}%
 \contentsline {lstlisting}{\numberline {35}do-while loop example}{25}{lstlisting.35}%
 \contentsline {lstlisting}{\numberline {36}for loop example}{25}{lstlisting.36}%
-\contentsline {lstlisting}{\numberline {37}Switch syntaxt}{26}{lstlisting.37}%
+\contentsline {lstlisting}{\numberline {37}continue example}{26}{lstlisting.37}%
+\contentsline {lstlisting}{\numberline {38}break example}{26}{lstlisting.38}%
+\contentsline {lstlisting}{\numberline {39}Switch syntaxt}{27}{lstlisting.39}%
+\contentsline {lstlisting}{\numberline {40}Switch example}{28}{lstlisting.40}%
+\contentsline {lstlisting}{\numberline {41}Function structure}{29}{lstlisting.41}%
+\contentsline {lstlisting}{\numberline {42}Function example}{29}{lstlisting.42}%
