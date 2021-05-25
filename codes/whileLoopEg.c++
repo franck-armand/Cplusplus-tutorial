@@ -10,8 +10,9 @@ int main(){
     * i<=6 returns false.
     */
    while(i <= 6){
-      cout<<"Value of variable i is: "<< i <<endl;
+      cout << "Value of variable i is:  "<< i << endl;
       i++; // we increment i until the condition is not true and exit the loop
    }
+   
    return 0;
 }

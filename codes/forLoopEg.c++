@@ -12,13 +12,14 @@ int main(){
       cout<<"Value of variable i is: "<<i<<endl;
    }
 
-     /* Output:
-    Value of variable i is: 1
-    Value of variable i is: 2
-    Value of variable i is: 3
-    Value of variable i is: 4
-    Value of variable i is: 5
-    Value of variable i is: 6*/
+   /* Output:
+    * Value of variable i is: 1
+    * Value of variable i is: 2
+    * Value of variable i is: 3
+    * Value of variable i is: 4
+    * Value of variable i is: 5
+    * Value of variable i is: 6
+    */
 
    return 0;
 }
