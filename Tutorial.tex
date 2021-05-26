@@ -36,7 +36,7 @@ breaklines = true,}
 
 \title{C++ Tutorial for Beginners}
 \author{Kouassi Franck Armand Prince}
-\date{202024080107}
+\date{}
 
 \begin{document}
 
@@ -594,7 +594,7 @@ We have six relational operators in C++: ==, !=, \textgreater, \textless,  \text
 
 \subsubsection{Bitwise Operators}
 The bitwise Operators: $\&$, $\|$,\textless\textless, \textgreater\textgreater,
-%Tilde, %^
+$\sim$, and \^\
 Bitwise operator performs bit by bit processing.\\
 \fbox{num1 = 11; //equal to 00001011} and \fbox{num2 = 22; // equal to 00010110}\\
 num1 $\&$ num2 compares corresponding bits of num1 and num2 and generates 1 if both bits
@@ -602,12 +602,12 @@ are equal, else it returns 0. In our case it would return: 2 which is 00000010 b
 in the binary form of num1 and num2 only second last bits are matching.\\
 num1 $\|$ num2 compares corresponding bits of num1 and num2 and generates 1 if either
 bit is 1, else it returns 0. In our case it would return 31 which is 00011111.\\
-num1 () num2 compares corresponding bits of num1 and num2 and generates 1 if they
+num1 \^\ num2 compares corresponding bits of num1 and num2 and generates 1 if they
 are not equal, else it returns 0. In our example it would return 29 which is
 equivalent to 00011101.\\
-~num1 is a complement operator that just changes the bit from 0 to 1 and 1 to 0.
+$\sim$num1 is a complement operator that just changes the bit from 0 to 1 and 1 to 0.
 In our example it would return -12 which is signed 8 bit equivalent to 11110100\\
-num1 \textgreater\textgreater 2 is left shift operator that moves the bits to the left,
+num1 \textless\textless 2 is left shift operator that moves the bits to the left,
 discards the farleft bit, and assigns the rightmost bit a value of 0. In our case output is 44 which
 is equivalent to 00101100.\\
 \textbf{Note:} In the example below we are providing 2 at the right side of this shift operator
