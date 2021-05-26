@@ -35,10 +35,8 @@ breaklines = true,}
 
 
 \title{C++ Tutorials for Beginners}
-\author{Kouassi Franck Armand Prince
-\date{09.05.2021}
-}
-
+\author{Kouassi Franck Armand Prince}
+\date{202024080107}
 
 \begin{document}
 
@@ -82,8 +80,8 @@ communicate with the computer compare to binary language.\newline Here, is how i
 
 \begin{figure}[!ht]
 \includegraphics[width = \linewidth]{diagrams/compling.png}
-\caption{Compliling Process.}
-\label{fig:Compliling Process}
+\caption{Compiling Process.}
+\label{fig:Compiling Process}
 \end{figure}
 
 \subsection{C++ against other programming languages}
@@ -104,7 +102,7 @@ to humans languge,it allows to easily understand and translate instructions cont
 which a language closed to machine language and generally requires much more effort but gives you more 
 control over what you can do, it is a trade-off.
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
     \includegraphics[width = \linewidth]{diagrams/low vs high.png}
     \caption{Programming Language by level.}
     \label{fig:Programming Language by level}
@@ -202,7 +200,8 @@ The “Hello World” program is the first but most vital step towards
 learning any programming language and it is certainly the simplest
 program you will learn with each programming language. All you need
 to do is display the message "Hello World" on the output screen.
-\lstinputlisting[language=c++, style=chstyle, label=first C++ code, caption=First C++ code]{codes/first.c++}
+\lstinputlisting[language=c++, style=chstyle, label=first C++ code,
+caption=First C++ code]{codes/first.c++}
 
 \noindent \textbf{Output:}
 \lstinputlisting[style=chstyle, label=hello world, caption=First C++ code Output]{codes/1.txt}
@@ -222,7 +221,7 @@ program. The above code is including the contents of the iostream file.
 \noindent
 \textbf{3}. \fbox{\color{magenta}int \color{black}main() \{...\}}\\
 A valid C++ program must have the main() function. The curly braces
-indicate the start and the end of the function. \\ The execution of
+indicate the start and the end of the function. The execution of
 code beings from this function.
 
 \noindent
@@ -249,26 +248,25 @@ before the identifier with scope resolution (::) operator. Thus with namespace s
 becomes \fbox{cout \textless\textless \color{blue!50!red}"Hello World!";}
 like in our previous example, much simpler right !! it is totally up to you, to define on which style
 suits you the most.\\
-\noindent  also, the keyword \fbox{endl} is used to denote the end of a line therefore, the next line 
+\noindent  also, the keyword \fbox{endl} is used to denote the end of a line therefore, the next line
 of code will be printed on a new line.\\
-It is also important to notice that you could combine instructions into a single one. for example,
+It is also important to notice that you could combine instructions into a single one. Here is an example,
 \lstinputlisting[style=chstyle, language=C++, label=Compress C++ code, caption= Compress C++ code ]
 {codes/oneLine.c++}
-This code output the two (02) instructions on 02 lines, you can run the code and see the output.
+This code output the two (02) instructions on one (01) line, you can run the code and see the output.
 
 \subsection{Make your code more readable}
-In order to allow others and yoursel to understand your code, it is recommended to add
+In order to allow others and yourself to understand your code, it is recommended to add
 comments to your code. Now we are going to learn how to comment our program. We introduced
-the concept of the in the previous section but lets dive depper into it.\\
+the concept of concerning comments in the previous section but lets dive depper into it.\\
 There exists two (02) types of comments :
 \begin{itemize}
 \item {\textbf{Short comments}}: as stated in the names they are short and can be written
     in one line of code. To write a short comment, you just need to start with \fbox{\color{green!60!black}//}
     following by your comment.
 \end{itemize}
-\lstinputlisting[style=chstyle, language=C++, label=First short commment, caption= First short commment]
+\lstinputlisting[style=chstyle, language=C++, label=First short commment, caption=First short commment]
 {codes/comment1.txt}
-
 
 \begin{itemize}
 \item {\textbf{Long comments}}: if your comments are long enough and can not fit in one line,
@@ -302,11 +300,12 @@ because comments are simply ignored by the compiler.
     \fbox{// Comment} or \fbox{/* Comment */}
 \end{itemize}
 
+\newpage
 \section{Introduction to variables in C++}
 So far, you have discovered how to create and compile your first programs in console mode.
 Right now these programs are very simple. They display messages on the screen...and nothing
 more. This is mainly due to the fact that your programs do not know how to interact
-with their users. This is what we will learn to do in the next chapter. But before that we need
+with their users. This is what we will learn how to do in the next chapter. But before that we need
 to introduce an important concept: \textbf{variables}
 
 \subsection{what is a variable ?}
@@ -323,8 +322,8 @@ be able to store a lot of different things, numbers, letters, sentences, picture
 This is what we call the type of a variable. You can imagine that as the shape of the drawer.
 We do not use the same drawers to store bottles or books.
 
-\subsection{Variables Naming conventions}
-Let’s start with the question of variable names. In C++, there are a few rules that
+\subsection{Variables naming conventions}
+Let’s start with the question of variable names. In C++, there are few rules that
 govern the different names allowed or prohibited.
 \begin{itemize}
 \item Variable names are made up of letters, numbers and the underscore only;
@@ -334,7 +333,7 @@ govern the different names allowed or prohibited.
 Here are few examples of valid variables: ageZero, first\_name also, AGEZERO are
 allowed variable names. \_ageZero in the other hand is not allowed.\\
 To this is added an additional rule, valid for everything written in C++ and not
-only for variables. Language makes the difference between upper and lower case.
+only for variables. The language makes the difference between upper and lower case.
 In technical terms, it is said that C++ is case sensitive. Thus, myAge, myage, MYAGE and
 MyAge are all different variables.\\
 
@@ -348,7 +347,7 @@ all, they will allow you to understand all the examples in the rest of this cour
 \item Each new word (except the first) begins with a capital letter.
 \end{itemize}
 
-Let us look at this with examples. Let us take the case of a variable that is supposed
+\noindent Let us look at this with examples. Let us take the case of a variable that is supposed
 to contain the age of the user of the program.
 
 \begin{itemize}
@@ -359,7 +358,7 @@ to contain the age of the user of the program.
 \end{itemize}
 
 I strongly advise you to adopt the same convention. Making your code readable and easily
-understandable by other programmers is very important, and it doesn’t just involve formatting.
+understandable by other programmers is very important, and it does not just involve formatting.
 
 \subsection{Variables types (Data types)}
 We learned that a variable has a name and a type. We know how to name our variables, now let’s
@@ -371,19 +370,19 @@ a word, a letter? It must be specified.\\
     \hline
     \textbf{Data type} & \textbf{What it contains} \\
     \hline
-    bool  & data type with two possible values: true or false    \\
-    char&   data type that holds one character (letter, number, etc.) of data  \\
-    int &numeric variables holding whole numbers \\
+    bool  & Data type with two possible values: true or false    \\
+    char&   Data type that holds one character (letter, number, etc.) of data  \\
+    int &Numeric variables holding whole numbers \\
     unsigned int    &A positive or zero integer number.\\
-    double&   numeric variables holding numbers with decimal points  \\
-    string& data values that are made up of ordered sequences of characters\\
+    double&   Numeric variables holding numbers with decimal points  \\
+    string& Data values that are made up of ordered sequences of characters\\
     \hline
 \end{tabular}
 
-\subsection{Syntaxt of variable declaration}
+\subsection{Syntax of variable declaration}
 In order to declare a variable in C++, the following syntaxt should be applied:
-\lstinputlisting[style=chstyle, language=C++, label=Variables Syntaxt,
-caption=Variables Syntaxt]{codes/var.txt}
+\lstinputlisting[style=chstyle, language=C++, label=Variables syntax,
+caption=Variables syntax]{codes/var.txt}
 As an example, we have:
 \lstinputlisting[style=chstyle, language=C++, label=Variables declaration,
 caption=Variables declaration]{codes/var.c++}
@@ -408,13 +407,13 @@ was \fbox{cout}. let consider this example:
 \lstinputlisting[style=chstyle, language=C++, label=Print message on the screen,
 caption=Print message on the screen]{codes/printmsg.c++}
 \textbf{Output}
-\lstinputlisting[style=chstyle, language=C++, label=message output,
-caption=message output]{codes/printMsgOut.txt}
+\lstinputlisting[style=chstyle, language=C++, label=Output message,
+caption=Output message]{codes/printMsgOut.txt}
 
-\subsection{Scope of Variables}
-All the variables have their area of functioning, and out of that boundary they don't
-hold their value, this boundary is called scope of the variable. For most of the
-cases its between the curly braces,in which variable is declared that a variable
+\subsection{Variables scope}
+All the variables have their area of functioning, and out of that boundary they do not
+hold their value, this boundary is called variable scope. For most of the
+cases its between the curly braces, in which variable is declared that a variable
 exists, not outside it. We will study the storage classes later, but as of now,
 we can broadly divide variables into two main types:\\
 $\bullet$ Global Variables\\
@@ -423,14 +422,14 @@ $\bullet$ Local variables
 \subsubsection{Global variables}
 Global variables are those, which are once declared and can be used throughout
 the lifetime of the program. They must be declared
-outside the main() function. If only declared, they can be assigned different
+outside the main() function. When declared, they can be assigned different
 values at different time in program lifetime. But even if they are declared and
-initialized at the same time outside the main() function, then also they can be
-assigned any value at any point in the program. Here is an exmaple:
+initialized at the same time outside the main() function, then they can also be
+assigned any value at any point in the program. Here is an example:
 \lstinputlisting[style=chstyle, language=C++, label=Global variable,
 caption=Global variable]{codes/globalVar.c++}
 In this code, the variable x was declared and not initialized (given an initial value)
-and was updated twice inside the main() function. You can run the code and see the output
+and was updated twice inside the main() function. You can run the code and see the output.
 
 \subsubsection{Local variables}
 Local variables are the variables which exist only between the curly braces,
@@ -441,19 +440,20 @@ in which its declared. Outside that they are unavailable and leads to compile ti
 \item A variable is an information stored in the memory.
 \item There exists various types of variables : \fbox{bool}, \fbox{char}, \fbox{int} ...
 \item The value of a variable can be displayed at any time with : \fbox{cout}
-\item There exists two types of variables : Global and Local variables
+\item  Variables can be declared either globally or locally: Global and Local variables
 \end{itemize}
 
-\section{How to handle user input}
-In the previous chapter, I explained how to display variables in the console. 
+\newpage
+\section{Dealing with user input}
+In the previous chapter, I explained how to display variables in the console.
 Now let’s see how to do the opposite, which is to ask the user for information
-to store it in memory. let's look at an example.
+to store it in memory. let us look at an example.
 \lstinputlisting[style=chstyle, language=C++, label=Saving a variable in the memory,
 caption=Saving a variable in the memory]{codes/cin.c++}
 \textbf{Output}
 \lstinputlisting[style=chstyle, language=C++, label=Saving a variable in the memory output,
 caption=Saving a variable in the memory]{codes/cinOut.txt}
-The program displayed "how old are are you ?". So far so good, right ? and on line 8,
+The program displayed ``how old are are you ?". So far so good, right ? and on line 8,
 the program ask for to store an integer in the memory then, at this moment, the program
 ask for user input and updates the variable ageUser initially declared to be holding the
 value 0. Finally, the program prints a message along with the user input.\\
@@ -463,11 +463,11 @@ for information, it is the opposite, the value comes from \fbox{cin} and goes in
 
 \subsection{Other variables}
 Obviously, what I presented to you also works with other types of variables.
-Let’s look at that with a small example.
+Let us look at it with an example.
 \lstinputlisting[style=chstyle, language=C++, label=Other variables,
 caption=Other variables]{codes/otherVar.c++}
-I don’t think I even need to explain it. But I would encourage you to test
-it to get a full understanding of what’s going on.
+I do not think I even need to explain it. But I would encourage you to test
+it to get a full understanding of what is going on.
 
 \subsection{Problem with space}
 Have you tested the previous code by putting your name and surname?
@@ -478,7 +478,7 @@ It’s a space problem. When you press the Enter key, the computer copies what
 the user wrote into the memory. But it stops at the first space or return
 to the line. When it comes to a number, there is no problem because there is
 no space in the numbers.\\
-for Strings, a question arises. There may very well be a space in a string.
+For Strings, a question arises. There may very well be a space in a string.
 And so the computer will cut in the wrong place, which is after the first word.
 In fact, it should be possible to retrieve the whole line rather than just the first word.
 In order to do so, we use the \fbox{getline()} function. Later, we will explain in details
@@ -491,38 +491,37 @@ caption=getline output]{codes/getLineOut.txt}
 
 \subsection{Update a variable}
 Let’s start by looking at how to change the content of a variable.
-We use the "=" symbol to make a value change. If I have a type \fbox{int} variable whose
+We use the ``=" symbol to make a value change. If I have a type \fbox{int} variable whose
 content I want to change, I write the name of my variable followed by
-the "=" symbol and finally the new value.
+the ``=" symbol and finally the new value.
 \lstinputlisting[style=chstyle, language=C++, label=update variables,
-label=update variables]{codes/assignVar.c++}
+caption=update variables]{codes/assignVar.c++}
 
-\subsection{Constants}
-I told you how to modify variables. I hope you understood! Because
-we’re going to do the opposite. I will show you how to declare non-modifiable variables
+\subsection{Constant variables}
+I told you how to modify variables right, I hope you understood! Because
+we are going to do the opposite. I will show you how to declare non-modifiable variables
 (constants).\\
-Pensez à une calculatrice, qui aura besoin de la constante $\pi$. This value never changes
-$\pi$ will always 3.14.\\
-But that’s not all. There are also variables whose value never changes but whose value is
+Think of a calculator that requires the constant $\pi$. This value never changes
+$\pi$ will always be 3.14.
+There are also variables whose value never changes but whose value is
 not known in advance. Let’s take the result of an operation in a calculator.
 Once the calculation is done, the result does not change. The variable that
-contains the result is therefore a constant.\\
-So let’s see how to declare such a variable.
+contains the result is therefore a constant.
 
-\subsubsection{declare a constant}
-It’s very simple. You declare a normal variable and add the keyword \fbox{const} between the type
-and the name. Also it applies to all variables types.
+\subsubsection{Declare a constant}
+It’s very simple, you declare a normal variable and add the keyword \fbox{const} between the type
+and the name. Also, it applies to all variables types.
 \lstinputlisting[style=chstyle, language=C++, label=declare a constant,
 caption=declare a constant]{codes/const.c++}
 
 \subsection{Operators in C++}
-Operators are special type of functions, that takes one or more arguments
+Operators are special type of functions, that take one or more arguments
 and produces a new value. For example : addition (+), substraction (-),
 multiplication (*) etc, are all operators. Operators are used to perform
 various operations on variables and constants.
 
 \subsubsection{Assignment Operator (=)}
-Operates '=' is used for assignment, it takes the right-hand side (called rvalue)
+Operates `=' is used for assignment, it takes the right-hand side (called rvalue)
 and copy it into the left-hand side (called lvalue). Assignment operator is the
 only operator which can be overloaded but cannot be inherited. As an example, we have
 \fbox{x = 10;} This statement assigns the integer value 10 to the variable x.\\
@@ -536,8 +535,9 @@ It assigns 5 to the all three variables: a, b and c; always from right-to-left.
     \hline
     \textbf{Operator} & \textbf{Description} \\
     \hline
-    +  & addition    \\
+    +  & Addition    \\
     ** &   Multiplication  \\
+    -  & Subtraction \\
     / & Division \\
     \%    &Modulo\\
     \hline
@@ -549,18 +549,18 @@ caption=Example of Arithmetic Operators]{codes/arithmetic.c++}
 \subsubsection{Assignment Operators}
 Assignments operators in C++ are: =, +=, -=, *=, /=, \%= \\
 num2 = num1 would assign value of variable num1 to the variable.\\
-num2+=num1 is equal to num2 = num2+num1;\\
-num2-=num1 is equal to num2 = num2-num1;\\
-num2/=num1 is equal to num2 = num2/num1;\\
-num2\%=num1 is equal to num2 = num2\%num1;\\
-\newline by applying thisto the previous example we have:
+num2+=num1 is equal to num2 = num2 + num1;\\
+num2-=num1 is equal to num2 = num2 - num1;\\
+num2/=num1 is equal to num2 = num2 / num1;\\
+num2\%=num1 is equal to num2 = num2 \% num1;\\
+\newline by applying this to the previous example we have:
 \lstinputlisting[style=chstyle, language=C++, label=Assignment Operators,
-label=Assignment Operators]{codes/assignment.c++}
+caption=Assignment Operators]{codes/assignment.c++}
 
-\subsubsection{Auto-increment and Auto-decrement Operators}
-Here we are going to talk about the following operators: ++ and --.\\
-num++ is equivalent to num=num+1;\\
-num–- is equivalent to num=num-1;
+\subsubsection{Increment and decrement Operators}
+Here we are going to talk about the following operators: ++ and - -.\\
+num++ is equivalent to num = num + 1;\\
+num- - is equivalent to num = num - 1;
 \lstinputlisting[style=chstyle, language=C++, label=auto increment/decrement,
 caption=auto increment/decrement]{codes/increment.c++}
 
@@ -593,7 +593,7 @@ We have six relational operators in C++: ==, !=, \textgreater, \textless,  \text
 \end{tabular}
 
 \subsubsection{Bitwise Operators}
-There are six bitwise Operators: $\&$, $\|$,\textless\textless, \textgreater\textgreater,
+The bitwise Operators: $\&$, $\|$,\textless\textless, \textgreater\textgreater,
 %Tilde, %^
 Bitwise operator performs bit by bit processing.\\
 \fbox{num1 = 11; //equal to 00001011} and \fbox{num2 = 22; // equal to 00010110}\\
@@ -610,7 +610,6 @@ In our example it would return -12 which is signed 8 bit equivalent to 11110100\
 num1 \textgreater\textgreater 2 is left shift operator that moves the bits to the left,
 discards the farleft bit, and assigns the rightmost bit a value of 0. In our case output is 44 which
 is equivalent to 00101100.\\
-
 \textbf{Note:} In the example below we are providing 2 at the right side of this shift operator
 that is the reason bits are moving two places to the left side. We can change this
 number and bits would be moved by the number of bits specified on the right side
@@ -638,6 +637,7 @@ caption=Ternary operator example]{codes/ternary.c++}
     \item The computer is indeed a super calculator that performs multiple operations (arithmetic etc.)
 \end{itemize}
 
+\newpage
 \section{Decision making}
 Programs must be able to make decisions. To achieve this, developers use so-called control structures.
 This name mainly hides in fact two elements that we will see in this chapter:\\
@@ -657,7 +657,7 @@ of a simple if statement.
 caption=Basic if statement structure]{codes/ifStatement.c++}
 The statements inside if parenthesis (usually referred as if body) gets executed only when
 the given condition is true. If the condition is false then the statements inside if body
-are completely ignored. Let's see an example
+are completely ignored.
 \lstinputlisting[style=chstyle, language=C++, label=if statement example,
 caption= if statement example]{codes/ifEg.c++}
 
@@ -665,7 +665,7 @@ caption= if statement example]{codes/ifEg.c++}
 An if statement inside another if statement is called nested if statement then it is called
 the nested if statement. Here is the basic structure of the nested if statement.
 \lstinputlisting[style=chstyle, language=C++, label=Nested if statement structure,
-label=Nested if statement structure]{codes/ifNested.c++}
+caption=Nested if statement structure]{codes/ifNested.c++}
 Statement$1$ would execute if the condition\_1 is true. Statement$2$ would only execute
 if both the conditions( condition\_1 and condition\_2) are true. let's see an example.
 \lstinputlisting[style=chstyle, language=C++, label=Nested if example,
@@ -674,7 +674,7 @@ caption=Nested if example]{codes/ifNested.c++}
 \subsubsection{if...else statement}
 The general form of a simple if...else statement is,
 \lstinputlisting[style=chstyle, language=C++, label= if...else structure,
-label=if...else structure]{codes/ifElse.c++}
+caption=if...else structure]{codes/ifElse.c++}
 If the 'expression' is true or returns true, then the 'statement$1$' will get executed,
 else 'statement$1$' will be skipped and 'statement$2$' will be executed. Here is an example.
 \lstinputlisting[style=chstyle, language=C++, label=if...else example,
@@ -759,7 +759,7 @@ case gets executed.
 \end{itemize}
 
 \newpage
-\section{Functions in C++}
+\section{Functions}
 A function is a block of code which is used to perform a particular task,
 for example let’s say you are writing a large C++ program and in that program
 you want to do a particular task several number of times, in order to do that you
@@ -884,6 +884,7 @@ caption=Overloading with different return type]{codes/funcOverload2.c++}
     \item Function overload allows you to use the same function to perform multiple task.
 \end{itemize}
 
+\newpage
 \section{Arrays}
 An array is a collection of similar items stored in contiguous memory locations.
 In programming, sometimes a simple variable is not enough to hold all the data.
@@ -1007,7 +1008,8 @@ Now that we now how to create a class and object we also need to know about acce
 C++ has three new keywords introduced, namely public, private and protected
 
 \subsubsection{Public Access Modifier}
-Public, means all the class members declared under public will be available to everyone. The data members and member functions declared public can be accessed by other classes too.
+Public, means all the class members declared under public will be available to everyone.
+The data members and member functions declared public can be accessed by other classes too.
 \lstinputlisting[style=chstyle, language=C++, label=Public Access example,
 caption=Public Access example]{codes/publicClass.c++}
 
@@ -1015,7 +1017,7 @@ caption=Public Access example]{codes/publicClass.c++}
 Private keyword, means that no one can access the class members declared private,
 outside that class. If someone tries to access the private members of a class, they
 will get a compile time error. By default class variables and member functions are private.
-\lstinputlisting[style=chstyle, language=C++, label=Private Access example,
+\lstinputlisting[style=chstyle, language=C++, label=Privat Access example,
 caption=Private Access example]{codes/privateClass.c++}
 
 \subsubsection{Protected access modifier}
@@ -1029,7 +1031,8 @@ caption=Protected Access example]{codes/protectClass.c++}
 \subsection{Abstraction}
 Abstraction is a process of hiding irrelevant details from user. For example,
 When you send an sms you just type the message, select the contact and click send,
-the phone shows you that the message has been sent, what actually happens in background when you click send is hidden from you as it is not relevant to you.
+the phone shows you that the message has been sent, what actually happens in background when you click
+send is hidden from you as it is not relevant to you.
 
 \subsection{Encapsulation}
 Encapsulation is a process of combining data and function into a single unit like capsule.
