@@ -461,7 +461,7 @@ When you display the value of a variable, the data comes out of the program,
 so you use an arrow going from the variable to \fbox{cout}. When we ask the user
 for information, it is the opposite, the value comes from \fbox{cin} and goes into the variable.
 
-\subsubsection{Other variables}
+\subsection{Other variables}
 Obviously, what I presented to you also works with other types of variables.
 Let’s look at that with a small example.
 \lstinputlisting[style=chstyle, language=C++, label=Other variables,
@@ -795,87 +795,282 @@ The main() function simply calls the the sum() function and pass it the two argu
 (2, 3) which represents num1 and num2 for the sum() function and adds the result
 into the variable result.
 
-\subsection{Calling a Function}
-Functions are called by their names as we saw in the previous example.
-When the function does not have an argument,
-it can be called directly using its name. On the contrary, for functions with
-arguments we have two ways to call them,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\subsection{Passing parameters to a function}
+Functions are called by their names as we saw in the previous example. When the function
+does not have an argument, it can be called directly using its name.
+On the contrary, for functions with arguments we have two ways to pass them:
+Pass by Value and Pass by reference.
+
+\subsubsection{Pass by Value}
+In this calling technique we pass the values of arguments which
+are stored or copied into the formal parameters of functions.
+Hence, the original values are unchanged only the parameters inside
+function changes.
+\lstinputlisting[style=chstyle, language=C++, label=Pass by value example,
+caption=Pass by value example]{codes/passByValue.c++}
+In this case the actual variable x is not changed, because we pass argument
+by value, hence a copy of x is passed, which is changed, and that copied value
+is destroyed as the function ends(goes out of scope). So the variable x inside
+main() still has a value 10.
+
+\subsubsection{Pass by reference}
+Here, we pass the address of the variable as arguments. In this case
+the formal parameter can be taken as a reference, in both
+the case they will change the values of the original variable.
+\lstinputlisting[style=chstyle, language=C++, label=Pass by reference example,
+caption=Pass by reference example]{codes/passRef.c++}
+Do not worry if you don not understand what this code does, we will learn
+pointer later on.
+
+\subsection{Default arguments}
+When we mention a default value for a parameter while declaring the function,
+it is said to be as default argument. In this case, even if we make a call to
+the function without passing any value for that parameter, the function will
+take the default value specified. Here is an example:
+\lstinputlisting[style=chstyle, language=C++, label=Default argument,
+caption=Default argument]{codes/defaultArg.c++}
+
+\subsubsection{Rules of default arguments}
+In order to use default arguments, there exist a rule that must be followed otherwise,
+the compiler will display an error message. so let's see some valid and invalid default
+arguments declaration.\\
+\textbf{1--:} Only the last argument must be given default value. You cannot have
+a default argument followed by non-default argument.
+\lstinputlisting[style=chstyle, language=C++, label=Default argument rule 1,
+caption=Default argument rule 1]{codes/validDef.c++}
+\textbf{2--:} If you default an argument, then you will have to default
+all the subsequent arguments after that.
+\lstinputlisting[style=chstyle, language=C++, label=Default argument rule 2,
+caption=Default argument rule 2]{codes/validDef2.c++}
+\textbf{Note:}You can give any value a default value to argument,
+compatible with its datatype.
+
+\subsection{Function overloading}
+Function overloading is usually used to enhance the readability of the program.
+If you have to perform one single operation but with different number or types
+of arguments, then you can simply overload the function. Overloading allows you
+to use the same name for different functions, to perform, either same or different
+functions.
+
+\subsubsection{Overloading with different number of Arguments}
+In this type of function overloading we define two functions with same names
+but different number of parameters of the same type. Here is an example
+\lstinputlisting[style=chstyle, language=C++, label=Overloading with different number of
+arguments, caption=Overloading with different number of
+arguments]{codes/funcOverload.c++}
+Here sum() function is said to overloaded, as it has two defintion,
+one which accepts two arguments and another which accepts three arguments.
+Which sum() function will be called, depends on the number of arguments.
+
+\subsubsection{Overloading with different return type}
+In this type of overloading we define two or more functions with same name and
+same number of parameters, but the return type of is different. For example in
+this program, we have two sum() function, first one gets two integer arguments and
+second one gets two double arguments.
+\lstinputlisting[style=chstyle, language=C++, label=Overloading with different return type,
+caption=Overloading with different return type]{codes/funcOverload2.c++}
+
+\subsection{Summary}
+\begin{itemize}
+    \item A function is a portion of code that contains instructions
+     and has a specific role.
+    \item All programs have at least one function: the main() function.
+     This is the one that runs when the program starts.
+    \item The same function can be called several times during.
+      the execution of a program.
+    \item Arguments can be passed by two ways : pass by reference and pass by reference.
+    \item Default arguments are called when a parameter is not initialized
+    \item Default arguments must be declared following a rule.
+    \item Function overload allows you to use the same function to perform multiple task.
+\end{itemize}
+
+\section{Arrays}
+An array is a collection of similar items stored in contiguous memory locations.
+In programming, sometimes a simple variable is not enough to hold all the data.
+We are going to see how an array is created and initialized.
+\lstinputlisting[style=chstyle, language=C++, label=Array declaration,
+caption=Array declaration]{codes/arrayInt.c++}
+As you can see in the above code, an array can be declared based on differents methods.
+Each entry in the array can be specified starting from index 0 as shown in method 1. Also,
+an array can be declared without spacifying the size, like in method 2 and finally the contrary
+can also be done, like in method 3.
+
+\subsection{Accessing elements in an array}
+Array index starts with 0, which means the first array element is at index 0,
+second is at index 1 and so on. We can use this information to display the array elements.
+\lstinputlisting[style=chstyle, language=C++, label=Accessing Array elements,
+caption=Accessing Array elements]{codes/accessArr.c++}
+Although this helps us accessing the array elements, but it is not efficent, if you have thousands of
+elements this method falls short. An efficent way will be to use a loop. We introduced loops earlier,
+with a loop this is how we could easily access the array elements.
+\lstinputlisting[style=chstyle, language=C++, label=Loop through the array elements,
+caption=Loop through the array elements]{codes/arrayLoop.c++}
+
+\subsection{Multidimensional Arrays}
+Multidimensional arrays are also known as array of arrays. The data in multidimensional array
+is stored in a tabular form. A two-dimensional array for instance looks like this:
+\fbox{int arr[2][3]} this array has 2*3 = 6 elements. similary, a three-dimensional array :
+\fbox{int arr[2][3][2]} this array has 2*3*2 = 12 elements.
+
+\subsubsection{Declare and initialize a two-dimensional array}
+Consider the following two-dimensional array \fbox{int myArray[2][3];} we can initialize this following
+the normal procedure like this: \fbox{int myArray[2][3] = \{15, 18 ,12 ,22 ,80 ,50\}}; another method to initialize
+will be: int \fbox{myArray[2][3] = \{\{15, 18 ,12\}, \{22 ,80 ,50\}\}};. In this array the elements are arranged
+following this structure: \\
+arr[0][0] – first element\\
+arr[0][1] – second element\\
+arr[0][2] – third element\\
+arr[1][0] – fourth element\\
+arr[1][1] – fifth element\\
+arr[1][2] – sixth element\\
+Here is how this code looks like :
+\lstinputlisting[style=chstyle, language=C++, label=two-dimensional array example,
+caption=two-dimensional array example]{codes/2dimArr.c++}
+
+\subsubsection{Passing array to a function}
+You can pass array as an argument to a function just like you pass variables as arguments.
+In order to pass array to the function you just need to mention the array name during
+function: \fbox{function\_name(array\_name);}
+\lstinputlisting[style=chstyle, language=C++, label=Array as an argument,
+caption=Array as an argument]{codes/arrayToFunc.c++}
+In this example, we are passing two arrays a \& b to the function sum().
+This function adds the corresponding elements of both the arrays and display them.
+
+\subsection{Summary}
+\begin{itemize}
+    \item Array is a dynamic way of storing and accessing elements.
+    \item Arrays can be declared following different structures.
+    \item There exist multidimensional arrays
+\end{itemize}
+
+
+\newpage
+\section{Pointers}
+Pointer is a variable in C++ that holds the address of another variable.
+They have data type just like variables, for example an integer type pointer
+can hold the address of an integer variable and an character type pointer can hold
+the address of char variable. The basic syntaxt of pointer is :
+\fbox{data\_type *pointer\_name;}. To declare a pointer, we can proceed in this way:
+\fbox{int *p, var}, This pointer p can hold the address of an integer
+variable, here p is a pointer and var is just a simple integer variable.\\
+To assign the address of variable to pointer we use ampersand symbol (\&). just like this
+\fbox{p = \&var;} this is how you assign the address of another variable to the pointer
+Lets take a simple example to understand what we discussed above.
+\lstinputlisting[style=chstyle, language=C++, label=Pointer example,
+caption=Pointer example]{codes/pointer.c++}
+
+\subsection{Pointer and arrays}
+While handling arrays with pointers you need to take care few things.
+First and very important point to note regarding arrays is that the array name
+alone represents the base address of array so while assigning the address of array
+to pointer don’t use ampersand sign(\&), here is the correct form \fbox{p = arr;}
+\lstinputlisting[style=chstyle, language=C++, label=Pointer and arrays example,
+caption=Pointer and arrays example]{codes/pointArr.c++}
+
+\subsection{Pointer's address and value increment}
+When we are accessing the value of a variable through pointer, sometimes we just
+need to increment or decrement the value of variable though it or we may need to move
+the pointer to next int position. In the above code we incremented using one way here
+we are discussing few more cases.
+\lstinputlisting[style=chstyle, language=C++, label=Pointer increment,
+caption=Pointer increment]{codes/pointerInc.c++}
+
+\subsection{Summary}
+\begin{itemize}
+    \item Pointers can be used to to point to various elements.
+    \item Pointers can be pass as an argument to a function.
+    \item Pointers can be combine with arrays.
+\end{itemize}
+
+\newpage
+\section{Introduction to OOP(Object Oriented Programming)}
+Object oriented programming is a way of solving complex problems by breaking
+them into smaller problems using objects. Before Object Oriented Programming
+(commonly referred as OOP), programs were written in procedural language,
+they were nothing but a long list of instructions. On the other hand, the OOP
+is all about creating objects that can interact with each other, this makes it
+easier to develop programs in OOP as we can understand the relationship between them.\\
+In Object oriented programming we write programs using classes and objects utilising
+features of OOPs such as \textbf{abstraction, encapsulation, inheritance} and
+\textbf{polymorphism.}
+
+\subsection{Class and Objects}
+A class is like a blueprint of data member and functions and object is an instance
+of class. For example, lets say we have a class Car which has data members (variables)
+such as speed, weight, price and functions such as gearChange(), slowDown(), brake() etc.
+Now lets say I create a object of this class named FordFigo which uses these data members
+and functions and give them its own values. Similarly we can create as many objects as we
+want using the blueprint(class).
+\lstinputlisting[style=chstyle, language=C++, label=Class example,
+caption=Class example]{codes/class.c++}
+Now that we now how to create a class and object we also need to know about access modifiers.
+C++ has three new keywords introduced, namely public, private and protected
+
+\subsubsection{Public Access Modifier}
+Public, means all the class members declared under public will be available to everyone. The data members and member functions declared public can be accessed by other classes too.
+\lstinputlisting[style=chstyle, language=C++, label=Public Access example,
+caption=Public Access example]{codes/publicClass.c++}
+
+\subsubsection{Private Access Modifier}
+Private keyword, means that no one can access the class members declared private,
+outside that class. If someone tries to access the private members of a class, they
+will get a compile time error. By default class variables and member functions are private.
+\lstinputlisting[style=chstyle, language=C++, label=Private Access example,
+caption=Private Access example]{codes/privateClass.c++}
+
+\subsubsection{Protected access modifier}
+Protected, is the last access specifier, and it is similar to private,
+it makes class member inaccessible outside the class. But they can be accessed
+by any subclass of that class. (If class A is inherited by class B, then class B
+is subclass of class A. We will learn about inheritance later.)
+\lstinputlisting[style=chstyle, language=C++, label=Protected Access example,
+caption=Protected Access example]{codes/protectClass.c++}
+
+\subsection{Abstraction}
+Abstraction is a process of hiding irrelevant details from user. For example,
+When you send an sms you just type the message, select the contact and click send,
+the phone shows you that the message has been sent, what actually happens in background when you click send is hidden from you as it is not relevant to you.
+
+\subsection{Encapsulation}
+Encapsulation is a process of combining data and function into a single unit like capsule.
+This is to avoid the access of private data members from outside the class.
+To achieve encapsulation, we make all data members of class private and create public
+functions, using them we can get the values from these data members or set the value
+to these data members.
+
+\subsection{Inheritance}
+Inheritance is a feature using which an object of child class acquires
+the properties of parent class.
+\lstinputlisting[style=chstyle, language=C++, label=Protected Access example,
+caption=Protected Access example]{codes/inheritance.c++}
+Now this object obj can use the properties (such as variable var1) of ParentClass.
+
+\subsection{Polymorphism}
+Function overloading and Operator overloading are examples of polymorphism.
+Polymorphism is a feature in which an object behaves differently in different situation.
+In function overloading we can have more than one function with same name but numbers,
+type or sequence of arguments.
+\lstinputlisting[style=chstyle, language=C++, label=Polymorphism example,
+caption=Polymorphism example]{codes/polymorphism.c++}
+
+\subsection{Summary}
+\begin{itemize}
+    \item OOP allows complex problems to be broken into chunks and process sequentially.
+    \item abstraction, encapsulation, inheritance and Polymorphism are the beasic feature of OOP.
+\end{itemize}
+
+\section{Conclusions}
+Yaaay !!! first I would to congratulate you for sticking with me so far,
+I know it has not been an easy journey but you did, together we covered the basics
+you need to get started with C++ programming and introduced some advance concept like OOP.
+You can call yoursel a C++ wizard. In this tutorial I tried as much as possible to provide
+an example to every single concept along with the explanation to let you understand in a more
+deeper way. Try as much as possible to write the code by yourself and not just copy and paste
+it in your IDE. In the next tutorial we are going to focus on big projects we can do together.
+We will break it into chunks and walk through the process together.
+\\Thanks for you !
+For any questions, comments and feedback feel free to contact me, you can find me at: \\
+\fbox{Armand21@hotmail.fr}
 
 
 \end{document}
