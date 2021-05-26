@@ -54,7 +54,7 @@
 \contentsline {lstlisting}{\numberline {54}Array declaration}{36}{lstlisting.54}%
 \contentsline {lstlisting}{\numberline {55}Accessing Array elements}{36}{lstlisting.55}%
 \contentsline {lstlisting}{\numberline {56}Loop through the array elements}{37}{lstlisting.56}%
-\contentsline {lstlisting}{\numberline {57}two-dimensional array example}{37}{lstlisting.57}%
+\contentsline {lstlisting}{\numberline {57}two-dimensional array example}{38}{lstlisting.57}%
 \contentsline {lstlisting}{\numberline {58}Array as an argument}{38}{lstlisting.58}%
 \contentsline {lstlisting}{\numberline {59}Pointer example}{40}{lstlisting.59}%
 \contentsline {lstlisting}{\numberline {60}Pointer and arrays example}{40}{lstlisting.60}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  26 MAY 2021 21:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  26 MAY 2021 21:59
 entering extended mode
 **b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
 (b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
@@ -479,12 +479,12 @@ LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10.95> not available
 (Font)              Font shape `OT1/txr/bx/it' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 64.
-<diagrams/compling.png, id=580, 543.02875pt x 111.41624pt>
+<diagrams/compling.png, id=581, 543.02875pt x 111.41624pt>
 File: diagrams/compling.png Graphic file (type png)
 <use diagrams/compling.png>
 Package pdftex.def Info: diagrams/compling.png  used on input line 82.
 (pdftex.def)             Requested size: 452.9679pt x 92.94127pt.
-<diagrams/low vs high.png, id=582, 348.30125pt x 318.18875pt>
+<diagrams/low vs high.png, id=583, 348.30125pt x 318.18875pt>
 File: diagrams/low vs high.png Graphic file (type png)
 <use diagrams/low vs high.png>
 Package pdftex.def Info: diagrams/low vs high.png  used on input line 106.
@@ -536,30 +536,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 550--558
 
  []
 
-(codes/assignment.c++ [19]) (codes/increment.c++) (codes/logicOp.c++) [20] (codes/bitwise.c++ [21]) (codes/ternary.c++) [22] (codes/ifStatement.c++) (codes/ifEg.c++) [23] (codes/ifNested.c++) (codes/ifNested.c++) (codes/ifElse.c++) (codes/ifElseEg.c++ [24]) (codes/ifElseIl.c++) (codes/ifElseIfEg.c++ [25]) (codes/whileLoop.c++) (codes/whileLoopEg.c++) [26] (codes/doWhileEg.c++) (codes/forLoopEg.c++ [27]) (codes/continueEg.c++) (codes/breakEg.c++ [28]) (codes/switch.c++) (codes/switchEg.c++ [29]) [30] (codes/funBasic.c++) (codes/funcAdd.c++) [31] (codes/passByValue.c++) (codes/passRef.c++) [32] (codes/defaultArg.c++) [33] (codes/validDef.c++) (codes/validDef2.c++) (codes/funcOverload.c++) [34] (codes/funcOverload2.c++) [35] (codes/arrayInt.c++) (codes/accessArr.c++) (codes/arrayLoop.c++ [36]) (codes/2dimArr.c++ [37])
-Overfull \hbox (14.5306pt too wide) in paragraph at lines 932--936
+(codes/assignment.c++ [19]) (codes/increment.c++) (codes/logicOp.c++) [20] (codes/bitwise.c++ [21]) (codes/ternary.c++) [22] (codes/ifStatement.c++) (codes/ifEg.c++) [23] (codes/ifNested.c++) (codes/ifNested.c++) (codes/ifElse.c++) (codes/ifElseEg.c++ [24]) (codes/ifElseIl.c++) (codes/ifElseIfEg.c++ [25]) (codes/whileLoop.c++) (codes/whileLoopEg.c++) [26] (codes/doWhileEg.c++) (codes/forLoopEg.c++ [27]) (codes/continueEg.c++) (codes/breakEg.c++ [28]) (codes/switch.c++) (codes/switchEg.c++ [29]) [30] (codes/funBasic.c++) (codes/funcAdd.c++) [31] (codes/passByValue.c++) (codes/passRef.c++) [32] (codes/defaultArg.c++) [33] (codes/validDef.c++) (codes/validDef2.c++) (codes/funcOverload.c++) [34] (codes/funcOverload2.c++) [35] (codes/arrayInt.c++) (codes/accessArr.c++) (codes/arrayLoop.c++ [36])
+<diagrams/multiDimArr.JPG, id=1523, 328.22626pt x 63.8385pt>
+File: diagrams/multiDimArr.JPG Graphic file (type jpg)
+<use diagrams/multiDimArr.JPG>
+Package pdftex.def Info: diagrams/multiDimArr.JPG  used on input line 915.
+(pdftex.def)             Requested size: 452.9679pt x 88.1011pt.
+ [37 <./diagrams/multiDimArr.JPG>] (codes/2dimArr.c++)
+Overfull \hbox (14.5306pt too wide) in paragraph at lines 939--943
 \OT1/txr/m/n/10.95 ar-ray to the func-tion you just need to men-tion the ar-ray name dur-ing func-tion: [] 
  []
 
-(codes/arrayToFunc.c++) [38] [39] (codes/pointer.c++) (codes/pointArr.c++ [40]) (codes/pointerInc.c++) [41] (codes/class.c++) (codes/publicClass.c++) [42] (codes/privateClass.c++) (codes/protectClass.c++) (codes/inheritance.c++ [43]) (codes/polymorphism.c++) [44] [45] (Tutorial.aux)
+(codes/arrayToFunc.c++ [38]) [39] (codes/pointer.c++) (codes/pointArr.c++ [40]) (codes/pointerInc.c++) [41] (codes/class.c++) (codes/publicClass.c++) [42] (codes/privateClass.c++) (codes/protectClass.c++) (codes/inheritance.c++ [43]) (codes/polymorphism.c++) [44] [45] (Tutorial.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Tutorial.out' has not changed.
-(rerunfilecheck)             Checksum: BFDCEF7EBA77A2EF64247BCD00566877;13255.
+(rerunfilecheck)             Checksum: F432BC30B611767A88B63C9F4286E6A4;13150.
  ) 
 Here is how much of TeX's memory you used:
- 15582 strings out of 479321
- 241611 string characters out of 2856584
- 961625 words of memory out of 3000000
- 31414 multiletter control sequences out of 15000+600000
+ 15592 strings out of 479321
+ 241840 string characters out of 2856584
+ 961701 words of memory out of 3000000
+ 31421 multiletter control sequences out of 15000+600000
  435129 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,8n,74p,406b,2147s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Tutorial.pdf (45 pages, 460741 bytes).
+Output written on Tutorial.pdf (45 pages, 479052 bytes).
 PDF statistics:
- 2086 PDF objects out of 2487 (max. 8388607)
- 1231 named destinations out of 1440 (max. 500000)
- 667 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2089 PDF objects out of 2487 (max. 8388607)
+ 1232 named destinations out of 1440 (max. 500000)
+ 672 words of extra memory for PDF output out of 10000 (max. 10000000)
 
