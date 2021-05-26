@@ -26,18 +26,18 @@ _The code used in this tutorial are provided
   - Dealing with strings
   - Dealing with multiple variables
   - Print message on the screen
-- Scope of variables
+-  Variables scope
   - Global variables
   - Local variables
 
 - Summary
 
-5- How to handle user input
+5- Dealing with user input
 - Other variables
 - Problem with space
 - Update a variable
 - Problem with space
-- Constants
+- Constant variables
   - Declare a constant
 - Operators
   - Assignment Operators (=)
@@ -52,10 +52,10 @@ _The code used in this tutorial are provided
 
 6- Decision making
 - If condition
-  - if statement 
+  - if statement
   - Nested if statement
   - if...else statement
-  - if-else-if statement 
+  - if-else-if statement
 - while loop
 - do-while loop
 - For loop
@@ -63,7 +63,7 @@ _The code used in this tutorial are provided
 - switch
 - Summary
 
-7- Functions in C++
+7- Functions
 - FunctionsPassing parameters to a function
  - Pass by value
  - Pass by reference
