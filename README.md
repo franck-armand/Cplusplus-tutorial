@@ -19,28 +19,43 @@ _The code used in this tutorial are provided
 - summary
 
 4- Introduction to Variables in C++
-- What is a variable ?
-- Variables naming conventions
-- Variable types (Data types)
+  - What is a variable ?
+  - Variables naming conventions
+  - Variable types (Data types)
 - Syntaxt of variable declaration
-- Dealing with strings
-- Dealing with multiple variables
-- Print message on the screen
+  - Dealing with strings
+  - Dealing with multiple variables
+  - Print message on the screen
 - Scope of variables
-- Global variables
-- Local variables
+  - Global variables
+  - Local variables
+
 - Summary
 
-5 - How to handle user input
+5- How to handle user input
 - Other variables
 - Problem with space
 - Update a variable
-- Constants 
-- Operators 
-- summary
+- Problem with space
+- Constants
+  - Declare a constant
+- Operators
+  - Assignment Operators (=)
+  - Basic arithmetic Operators (+, -, *, /, %)
+  - assignment operators
+  - Increment/ decrement operator
+  - Logical operator
+  - relational operator
+  - bitwise operator
+  - Ternary operator
+- Summary
 
 6- Decision making
 - If condition
+  - if statement 
+  - Nested if statement
+  - if...else statement
+  - if-else-if statement 
 - while loop
 - do-while loop
 - For loop
@@ -48,28 +63,36 @@ _The code used in this tutorial are provided
 - switch
 - Summary
 
-6- Reusable Blocks of code
-- Functions
-- Return Values
-- Function Parameters
-- Headers and prototypes
+7- Functions in C++
+- FunctionsPassing parameters to a function
+ - Pass by value
+ - Pass by reference
+- Default arguments
+  - Rules of default arguments
+- Function overloading
+  - Overloading with different number of arguments
+  - Overloading with different return types
+- Summary
 
-7- Object Oriented coding
-- Classes
-- Data members
+8- Arrays
+- Accessing element in an array
+- Multidimensional arrays
+- Summary
 
-8- Pointers and Memory
-- Pointers
-- Arithmetic
-- Pointers and arrays
-- Pointer Arithmetic
-- Reversing a String
-- The “const” Keyword
-- Namespaces
+9- Pointers
+- Pointer and array
+- Pointer's address and value increment
+- Summary
 
-9- Inheritance
-- Inheritance
+10- Introduction to OOP
+- Class and objects
+  - Public access modifier
+  - Private access modifier
+  - Protected access modifier
+- abstraction
 - Encapsulation
-- Constructor Inheritance
+- Inheritance
+- Polymorphism
+- Summary
 
-10- Project
+11- Project
