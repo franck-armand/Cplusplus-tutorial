@@ -14,11 +14,11 @@ _The code used in this tutorial are provided
 
 2- Environment setup
 
-3- Your first c++ code
+3- Your first code
 - Make your code more readable
 - summary
 
-4- Introduction to Variables in C++
+4- Introduction to Variables
   - What is a variable ?
   - Variables naming conventions
   - Variable types (Data types)
