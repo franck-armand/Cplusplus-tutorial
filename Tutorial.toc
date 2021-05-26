@@ -8,76 +8,76 @@
 \contentsline {section}{\numberline {3}Your first C++ code}{9}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Make your code more readable}{10}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Summary}{11}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Introduction to variables in C++}{11}{section.4}%
-\contentsline {subsection}{\numberline {4.1}what is a variable ?}{11}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Variables Naming conventions}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Variables types (Data types)}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Syntaxt of variable declaration}{13}{subsection.4.4}%
+\contentsline {section}{\numberline {4}Introduction to variables in C++}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}what is a variable ?}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Variables naming conventions}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Variables types (Data types)}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Syntax of variable declaration}{13}{subsection.4.4}%
 \contentsline {subsubsection}{\numberline {4.4.1}Dealing with strings}{13}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Dealing with multiple variables}{13}{subsubsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.5}Print message on the screen}{13}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Scope of Variables}{14}{subsection.4.6}%
-\contentsline {subsubsection}{\numberline {4.6.1}Global variables}{14}{subsubsection.4.6.1}%
-\contentsline {subsubsection}{\numberline {4.6.2}Local variables}{14}{subsubsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.4.2}Dealing with multiple variables}{14}{subsubsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.5}Print message on the screen}{14}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Variables scope}{14}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}Global variables}{15}{subsubsection.4.6.1}%
+\contentsline {subsubsection}{\numberline {4.6.2}Local variables}{15}{subsubsection.4.6.2}%
 \contentsline {subsection}{\numberline {4.7}Summary}{15}{subsection.4.7}%
-\contentsline {section}{\numberline {5}How to handle user input}{15}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Other variables}{15}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Problem with space}{16}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Update a variable}{17}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Constants}{17}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}declare a constant}{17}{subsubsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.5}Operators in C++}{17}{subsection.5.5}%
+\contentsline {section}{\numberline {5}Dealing with user input}{16}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Other variables}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Problem with space}{17}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Update a variable}{18}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Constant variables}{18}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Declare a constant}{18}{subsubsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.5}Operators in C++}{18}{subsection.5.5}%
 \contentsline {subsubsection}{\numberline {5.5.1}Assignment Operator (=)}{18}{subsubsection.5.5.1}%
-\contentsline {subsubsection}{\numberline {5.5.2}Basic Arithmetic Operators (+, -, *, /, \%)}{18}{subsubsection.5.5.2}%
-\contentsline {subsubsection}{\numberline {5.5.3}Assignment Operators}{18}{subsubsection.5.5.3}%
-\contentsline {subsubsection}{\numberline {5.5.4}Auto-increment and Auto-decrement Operators}{19}{subsubsection.5.5.4}%
-\contentsline {subsubsection}{\numberline {5.5.5}Logical Operators}{19}{subsubsection.5.5.5}%
-\contentsline {subsubsection}{\numberline {5.5.6}Relational operators}{20}{subsubsection.5.5.6}%
-\contentsline {subsubsection}{\numberline {5.5.7}Bitwise Operators}{20}{subsubsection.5.5.7}%
-\contentsline {subsubsection}{\numberline {5.5.8}Ternary Operator}{21}{subsubsection.5.5.8}%
-\contentsline {subsection}{\numberline {5.6}Summary}{21}{subsection.5.6}%
-\contentsline {section}{\numberline {6}Decision making}{22}{section.6}%
-\contentsline {subsection}{\numberline {6.1}if - condition}{22}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}if statement}{22}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Nested if statement}{23}{subsubsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.3}if...else statement}{23}{subsubsection.6.1.3}%
-\contentsline {subsubsection}{\numberline {6.1.4}if-else-if statement}{24}{subsubsection.6.1.4}%
-\contentsline {subsection}{\numberline {6.2}while loop}{25}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}do-while loop}{26}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}for loop}{26}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Jumping out of a loop}{27}{subsection.6.5}%
-\contentsline {subsubsection}{\numberline {6.5.1}Continue}{27}{subsubsection.6.5.1}%
-\contentsline {subsubsection}{\numberline {6.5.2}break}{27}{subsubsection.6.5.2}%
-\contentsline {subsection}{\numberline {6.6}switch}{28}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}Summary}{29}{subsection.6.7}%
-\contentsline {section}{\numberline {7}Functions in C++}{30}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Passing parameters to a function}{31}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Pass by Value}{31}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}Pass by reference}{31}{subsubsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.2}Default arguments}{32}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Rules of default arguments}{32}{subsubsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.3}Function overloading}{33}{subsection.7.3}%
-\contentsline {subsubsection}{\numberline {7.3.1}Overloading with different number of Arguments}{33}{subsubsection.7.3.1}%
-\contentsline {subsubsection}{\numberline {7.3.2}Overloading with different return type}{34}{subsubsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.4}Summary}{34}{subsection.7.4}%
-\contentsline {section}{\numberline {8}Arrays}{35}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Accessing elements in an array}{35}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Multidimensional Arrays}{36}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Declare and initialize a two-dimensional array}{36}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Passing array to a function}{37}{subsubsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.3}Summary}{38}{subsection.8.3}%
-\contentsline {section}{\numberline {9}Pointers}{39}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Pointer and arrays}{39}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Pointer's address and value increment}{40}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Summary}{40}{subsection.9.3}%
-\contentsline {section}{\numberline {10}Introduction to OOP(Object Oriented Programming)}{41}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Class and Objects}{41}{subsection.10.1}%
-\contentsline {subsubsection}{\numberline {10.1.1}Public Access Modifier}{41}{subsubsection.10.1.1}%
-\contentsline {subsubsection}{\numberline {10.1.2}Private Access Modifier}{42}{subsubsection.10.1.2}%
-\contentsline {subsubsection}{\numberline {10.1.3}Protected access modifier}{42}{subsubsection.10.1.3}%
-\contentsline {subsection}{\numberline {10.2}Abstraction}{42}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Encapsulation}{42}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Inheritance}{42}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}Polymorphism}{43}{subsection.10.5}%
-\contentsline {subsection}{\numberline {10.6}Summary}{43}{subsection.10.6}%
-\contentsline {section}{\numberline {11}Conclusions}{44}{section.11}%
+\contentsline {subsubsection}{\numberline {5.5.2}Basic Arithmetic Operators (+, -, *, /, \%)}{19}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Assignment Operators}{19}{subsubsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.5.4}Increment and decrement Operators}{20}{subsubsection.5.5.4}%
+\contentsline {subsubsection}{\numberline {5.5.5}Logical Operators}{20}{subsubsection.5.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.6}Relational operators}{21}{subsubsection.5.5.6}%
+\contentsline {subsubsection}{\numberline {5.5.7}Bitwise Operators}{21}{subsubsection.5.5.7}%
+\contentsline {subsubsection}{\numberline {5.5.8}Ternary Operator}{22}{subsubsection.5.5.8}%
+\contentsline {subsection}{\numberline {5.6}Summary}{22}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Decision making}{23}{section.6}%
+\contentsline {subsection}{\numberline {6.1}if - condition}{23}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}if statement}{23}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Nested if statement}{24}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}if...else statement}{24}{subsubsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.4}if-else-if statement}{25}{subsubsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.2}while loop}{26}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}do-while loop}{27}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}for loop}{27}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Jumping out of a loop}{28}{subsection.6.5}%
+\contentsline {subsubsection}{\numberline {6.5.1}Continue}{28}{subsubsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.2}break}{28}{subsubsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.6}switch}{29}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Summary}{30}{subsection.6.7}%
+\contentsline {section}{\numberline {7}Functions}{31}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Passing parameters to a function}{32}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Pass by Value}{32}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Pass by reference}{32}{subsubsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.2}Default arguments}{33}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Rules of default arguments}{33}{subsubsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.3}Function overloading}{34}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}Overloading with different number of Arguments}{34}{subsubsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.2}Overloading with different return type}{35}{subsubsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.4}Summary}{35}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Arrays}{36}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Accessing elements in an array}{36}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Multidimensional Arrays}{37}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Declare and initialize a two-dimensional array}{37}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Passing array to a function}{38}{subsubsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.3}Summary}{39}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Pointers}{40}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Pointer and arrays}{40}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Pointer's address and value increment}{41}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Summary}{41}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Introduction to OOP(Object Oriented Programming)}{42}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Class and Objects}{42}{subsection.10.1}%
+\contentsline {subsubsection}{\numberline {10.1.1}Public Access Modifier}{42}{subsubsection.10.1.1}%
+\contentsline {subsubsection}{\numberline {10.1.2}Private Access Modifier}{43}{subsubsection.10.1.2}%
+\contentsline {subsubsection}{\numberline {10.1.3}Protected access modifier}{43}{subsubsection.10.1.3}%
+\contentsline {subsection}{\numberline {10.2}Abstraction}{43}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Encapsulation}{43}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Inheritance}{43}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Polymorphism}{44}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Summary}{44}{subsection.10.6}%
+\contentsline {section}{\numberline {11}Conclusions}{45}{section.11}%

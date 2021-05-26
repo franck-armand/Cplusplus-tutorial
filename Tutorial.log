@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  26 MAY 2021 15:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.7)  26 MAY 2021 21:28
 entering extended mode
 **b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
 (b:/_GITHUB/Beginners-Cplusplus-tutorial/Tutorial.tex
@@ -316,7 +316,7 @@ LaTeX Info: Redefining \labelcpageref on input line 2370.
 Package cleveref Info: `listings' support loaded on input line 3131.
 )
 \mybox=\box49
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 43.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 41.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -333,40 +333,40 @@ LaTeX Warning: Label `Protected Access example@cref' multiply defined.
 )
 \openout1 = `Tutorial.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 43.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 43.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 41.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 41.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 43.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 43.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 41.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 41.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 43.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 43.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 41.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 41.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 43.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 43.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 41.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 41.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -403,7 +403,7 @@ LaTeX Font Info:    ... okay on input line 43.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count293
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 41.
 (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -413,9 +413,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count294
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
  (Tutorial.out) (Tutorial.out)
 \@outlinefile=\write3
 \openout3 = `Tutorial.out'.
@@ -439,26 +439,26 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 45.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 43.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 45.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 43.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 43.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 45.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 43.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ) [1
 
 {C:/Users/arman/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 49.
  (Tutorial.toc
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1.
@@ -476,25 +476,21 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
 
  [5]
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10.95> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 62.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 66.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 64.
 <diagrams/compling.png, id=580, 543.02875pt x 111.41624pt>
 File: diagrams/compling.png Graphic file (type png)
 <use diagrams/compling.png>
-Package pdftex.def Info: diagrams/compling.png  used on input line 84.
+Package pdftex.def Info: diagrams/compling.png  used on input line 82.
 (pdftex.def)             Requested size: 452.9679pt x 92.94127pt.
 <diagrams/low vs high.png, id=582, 348.30125pt x 318.18875pt>
 File: diagrams/low vs high.png Graphic file (type png)
 <use diagrams/low vs high.png>
-Package pdftex.def Info: diagrams/low vs high.png  used on input line 108.
+Package pdftex.def Info: diagrams/low vs high.png  used on input line 106.
 (pdftex.def)             Requested size: 452.9679pt x 413.82495pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6 <./diagrams/compling.png>]
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 123.
+ [6 <./diagrams/compling.png>]
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 121.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [7 <./diagrams/low vs high.png>] (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
@@ -504,71 +500,66 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 140.
+LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 138.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 ) [8] (codes/first.c++) (codes/1.txt)
-LaTeX Font Info:    Trying to load font information for OML+txr on input line 218.
+LaTeX Font Info:    Trying to load font information for OML+txr on input line 217.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxr.fd
 File: omltxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OML/txr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/txmi/m/it' tried instead on input line 218.
-LaTeX Font Info:    Trying to load font information for OMS+txr on input line 223.
+(Font)              Font shape `OML/txmi/m/it' tried instead on input line 217.
+LaTeX Font Info:    Trying to load font information for OMS+txr on input line 222.
  (C:\Users\arman\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 223.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 222.
  [9] (codes/oneLine.c++) (codes/comment1.txt) (codes/comment2.txt) (codes/helloworldCommented.c++ [10]) [11]
-Underfull \hbox (badness 10000) in paragraph at lines 334--340
+Underfull \hbox (badness 10000) in paragraph at lines 333--339
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--369
-
- []
-
-[12] (codes/var.txt) (codes/var.c++) (codes/string.c++) (codes/multipleVar.c++) (codes/printmsg.c++ [13]) (codes/printMsgOut.txt) (codes/globalVar.c++) [14] (codes/cin.c++) (codes/cinOut.txt) (codes/otherVar.c++ [15]) (codes/otherVarOut.txt) (codes/getLine.c++ [16]) (codes/getLineOut.txt) (codes/assignVar.c++) (codes/const.c++) [17]
-Underfull \hbox (badness 10000) in paragraph at lines 535--547
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 364--368
 
  []
 
-(codes/arithmetic.c++)
+(codes/var.txt) (codes/var.c++) (codes/string.c++ [13]) (codes/multipleVar.c++) (codes/printmsg.c++) (codes/printMsgOut.txt) [14] (codes/globalVar.c++) [15] (codes/cin.c++) (codes/cinOut.txt) (codes/otherVar.c++ [16]) (codes/otherVarOut.txt) (codes/getLine.c++) (codes/getLineOut.txt) [17] (codes/assignVar.c++) (codes/const.c++)
+Underfull \hbox (badness 10000) in paragraph at lines 534--547
+
+ []
+
+[18] (codes/arithmetic.c++)
 Underfull \hbox (badness 10000) in paragraph at lines 550--558
 
  []
 
-(codes/assignment.c++ [18]) (codes/increment.c++) (codes/logicOp.c++ [19])
-Underfull \hbox (badness 10000) in paragraph at lines 596--613
-
- []
-
-(codes/bitwise.c++ [20]) (codes/ternary.c++) [21] (codes/ifStatement.c++) (codes/ifEg.c++) [22] (codes/ifNested.c++) (codes/ifNested.c++) (codes/ifElse.c++) (codes/ifElseEg.c++ [23]) (codes/ifElseIl.c++) (codes/ifElseIfEg.c++ [24]) (codes/whileLoop.c++) (codes/whileLoopEg.c++) [25] (codes/doWhileEg.c++) (codes/forLoopEg.c++ [26]) (codes/continueEg.c++) (codes/breakEg.c++ [27]) (codes/switch.c++) (codes/switchEg.c++ [28]) [29] (codes/funBasic.c++) (codes/funcAdd.c++) [30] (codes/passByValue.c++) (codes/passRef.c++) [31] (codes/defaultArg.c++) [32] (codes/validDef.c++) (codes/validDef2.c++) (codes/funcOverload.c++) [33] (codes/funcOverload2.c++) [34] (codes/arrayInt.c++) (codes/accessArr.c++) (codes/arrayLoop.c++ [35]) (codes/2dimArr.c++ [36])
-Overfull \hbox (14.5306pt too wide) in paragraph at lines 931--935
+(codes/assignment.c++ [19]) (codes/increment.c++) (codes/logicOp.c++) [20] (codes/bitwise.c++ [21]) (codes/ternary.c++) [22] (codes/ifStatement.c++) (codes/ifEg.c++) [23] (codes/ifNested.c++) (codes/ifNested.c++) (codes/ifElse.c++) (codes/ifElseEg.c++ [24]) (codes/ifElseIl.c++) (codes/ifElseIfEg.c++ [25]) (codes/whileLoop.c++) (codes/whileLoopEg.c++) [26] (codes/doWhileEg.c++) (codes/forLoopEg.c++ [27]) (codes/continueEg.c++) (codes/breakEg.c++ [28]) (codes/switch.c++) (codes/switchEg.c++ [29]) [30] (codes/funBasic.c++) (codes/funcAdd.c++) [31] (codes/passByValue.c++) (codes/passRef.c++) [32] (codes/defaultArg.c++) [33] (codes/validDef.c++) (codes/validDef2.c++) (codes/funcOverload.c++) [34] (codes/funcOverload2.c++) [35] (codes/arrayInt.c++) (codes/accessArr.c++) (codes/arrayLoop.c++ [36]) (codes/2dimArr.c++ [37])
+Overfull \hbox (14.5306pt too wide) in paragraph at lines 932--936
 \OT1/txr/m/n/10.95 ar-ray to the func-tion you just need to men-tion the ar-ray name dur-ing func-tion: [] 
  []
 
-(codes/arrayToFunc.c++) [37] [38] (codes/pointer.c++) (codes/pointArr.c++ [39]) (codes/pointerInc.c++) [40] (codes/class.c++) (codes/publicClass.c++) [41] (codes/privateClass.c++) (codes/protectClass.c++) (codes/inheritance.c++ [42]) (codes/polymorphism.c++) [43] [44] (Tutorial.aux)
+(codes/arrayToFunc.c++) [38] [39] (codes/pointer.c++) (codes/pointArr.c++ [40]) (codes/pointerInc.c++) [41] (codes/class.c++) (codes/publicClass.c++) [42] (codes/privateClass.c++) (codes/protectClass.c++) (codes/inheritance.c++ [43]) (codes/polymorphism.c++) [44] [45] (Tutorial.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Tutorial.out' has not changed.
-(rerunfilecheck)             Checksum: 96FB06C9A2F15440376433D6E53E7500;13329.
+(rerunfilecheck)             Checksum: BFDCEF7EBA77A2EF64247BCD00566877;13255.
  ) 
 Here is how much of TeX's memory you used:
  15582 strings out of 479321
- 241618 string characters out of 2856584
- 985590 words of memory out of 3000000
- 31415 multiletter control sequences out of 15000+600000
+ 241611 string characters out of 2856584
+ 961625 words of memory out of 3000000
+ 31414 multiletter control sequences out of 15000+600000
  435129 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,8n,74p,406b,2133s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,8n,74p,406b,2147s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arman/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Tutorial.pdf (44 pages, 459559 bytes).
+Output written on Tutorial.pdf (45 pages, 460741 bytes).
 PDF statistics:
- 2081 PDF objects out of 2487 (max. 8388607)
- 1230 named destinations out of 1440 (max. 500000)
+ 2086 PDF objects out of 2487 (max. 8388607)
+ 1231 named destinations out of 1440 (max. 500000)
  667 words of extra memory for PDF output out of 10000 (max. 10000000)
 
